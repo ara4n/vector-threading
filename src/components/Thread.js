@@ -15,13 +15,31 @@ limitations under the License.
 */
 
 import React from 'react';
+import { DropTarget } from 'react-dnd';
 
 import Event from './Event';
 
-export default React.createClass({
+
+const threadTarget = {
+    canDrop() {
+        return true;
+    },
+
+    drop(props, monitor, component) {
+        console.log("dropped on thread")
+    },
+
+    hover(props, monitor, component) {
+        var item = monitor.getItem();
+    },
+};
+
+
+var Thread = React.createClass({
 
     propTypes: {
         thread: React.PropTypes.object.isRequired, // root event of the thread being displayed
+        connectDropTarget: React.PropTypes.func.isRequired,
     },
 
     getThread() {
@@ -36,7 +54,9 @@ export default React.createClass({
     },
 
     render() {
-        return (
+        var connectDropTarget = this.props.connectDropTarget;
+
+        return connectDropTarget(
             <div className="thread">
                 { this.getThread().map((event) => {
                     return <Event key={ event.event_id } event={ event }/>;
@@ -46,3 +66,7 @@ export default React.createClass({
         );
     }
 })
+
+export default DropTarget('Event', threadTarget, connect => ({
+        connectDropTarget: connect.dropTarget(),
+}))(Thread);

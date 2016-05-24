@@ -15,6 +15,8 @@ limitations under the License.
 */
 
 import React from 'react';
+import { DragDropContext } from 'react-dnd';
+import HTML5Backend from 'react-dnd-html5-backend';
 import { SortablePane, Pane } from '../react-sortable-pane';
 
 import Thread from './Thread';
@@ -22,7 +24,7 @@ import Thread from './Thread';
 var timelineJson = require("../../hq2.json");
 
 
-export default React.createClass({
+export default DragDropContext(HTML5Backend)(React.createClass({
 
     getInitialState() {
         return {
@@ -146,4 +148,4 @@ export default React.createClass({
             </div>
         );
     }
-})
+}));
