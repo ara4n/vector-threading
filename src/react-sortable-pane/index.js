@@ -295,14 +295,12 @@ class SortablePane extends Component {
   }
 
   handleResizeStart(i) {
-    console.log("start resizing item " + i + "; panes = " + JSON.stringify(this.state.panes));
     const order = this.getPanePropsArrayOf('order');
     this.setState({ isResizing: true });
     this.props.onResizeStart({ id: this.state.panes[order.indexOf(i)].id });
   }
 
   handleResizeStop(i, dir, size, rect) {
-    console.log(`stop resizing item ${i} ${dir} ${JSON.stringify(size)} ${JSON.stringify(rect)}; panes = ` + JSON.stringify(this.state.panes));
     const { panes } = this.state;
     const order = this.getPanePropsArrayOf('order');
     this.setState({ isResizing: false });
@@ -310,7 +308,6 @@ class SortablePane extends Component {
   }
 
   handleMouseDown(pos, pressX, pressY, { pageX, pageY }) {
-    console.log("start mouse down " + pos + "; panes = " + JSON.stringify(this.state.panes));
     this.setState({
       delta: this.isHorizontal() ? pageX - pressX : pageY - pressY,
       mouse: this.isHorizontal() ? pressX : pressY,
@@ -346,7 +343,6 @@ class SortablePane extends Component {
   }
 
   handleMouseUp() {
-    console.log("start mouse up; panes = " + JSON.stringify(this.state.panes));
     this.setState({ isPressed: false, delta: 0 });
     this.props.children[this.state.lastPressed].props.onDragEnd();
     const lastPressedId = this.props.children[this.state.lastPressed].props.id;
@@ -372,35 +368,28 @@ class SortablePane extends Component {
                 x: this.isHorizontal() ? springPosition : 0,
                 y: !this.isHorizontal() ? springPosition : 0,
               };
-      console.log(`Rendering motion for ${i} with key ${child.props.id} and style` + JSON.stringify(style));
       return (
         <Motion style={style} key={child.props.id}>
           {({ scale, shadow, x, y }) => {
-            console.log(`setting motion for child ${i} to ${x},${y}`);
             const onResize = this.onResize.bind(this, i);
             const onMouseDown = isSortable ? this.handleMouseDown.bind(this, i, x, y) : () => null;
             const onTouchStart = this.handleTouchStart.bind(this, i, x, y);
             const onResizeStart = this.handleResizeStart.bind(this, i);
             const onResizeStop = this.handleResizeStop.bind(this, i);
 
-            console.log(`child.props.style on ${child.props.id} is: ` + JSON.stringify(child.props.style));
-
             // take a copy rather than direct-manipulating the child's prop, which violates React
             // and causes problems if the child's prop is a static default {}, which then will be
             // shared across all children!
-            var customStyle = Object.assign({}, child.props.style);
+            const customStyle = Object.assign({}, child.props.style);
             Object.assign(customStyle, {
-                  boxShadow: `rgba(0, 0, 0, 0.2) 0px ${shadow}px ${2 * shadow}px 0px`,
-                  transform: `translate3d(${x}px, ${y}px, 0px) scale(${scale})`,
-                  WebkitTransform: `translate3d(${x}px, ${y}px, 0px) scale(${scale})`,
-                  MozTransform: `translate3d(${x}px, ${y}px, 0px) scale(${scale})`,
-                  MsTransform: `translate3d(${x}px, ${y}px, 0px) scale(${scale})`,
-                  zIndex: i === lastPressed ? 99 : i, // TODO: Add this.props.zIndex
-                  position: 'absolute',
+              boxShadow: `rgba(0, 0, 0, 0.2) 0px ${shadow}px ${2 * shadow}px 0px`,
+              transform: `translate3d(${x}px, ${y}px, 0px) scale(${scale})`,
+              WebkitTransform: `translate3d(${x}px, ${y}px, 0px) scale(${scale})`,
+              MozTransform: `translate3d(${x}px, ${y}px, 0px) scale(${scale})`,
+              MsTransform: `translate3d(${x}px, ${y}px, 0px) scale(${scale})`,
+              zIndex: i === lastPressed ? 99 : i, // TODO: Add this.props.zIndex
+              position: 'absolute',
             });
-
-            console.log(`Setting customStyle on ${child.props.id} of: ` + JSON.stringify(customStyle));
-            console.log(`child.props.style on ${child.props.id} after: ` + JSON.stringify(child.props.style));
 
             return (
               <Resizable
