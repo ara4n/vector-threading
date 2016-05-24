@@ -135,6 +135,8 @@ export default React.createClass({
                     onResizeStop ={ ()=>{ this.setState({ className: undefined })}}
                     onDragStart=  { ()=>{ this.setState({ className: 'noselect' })}}
                     onDragEnd=    { ()=>{ this.setState({ className: undefined })}}
+                    isSortable={ false }
+                    isResizable={{ x: true, y: false, xy: false }}
                     className={ this.state.className }
                     onOrderChange={ undefined }
                     order={ undefined }
