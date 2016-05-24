@@ -1,0 +1,3800 @@
+{
+  "start": "t126306-21886241_9758471_119301_1644755_6628_2094",
+  "chunk": [
+    {
+      "origin_server_ts": 1463915023860,
+      "sender": "@Half-Shot:half-shot.uk",
+      "event_id": "$14639150232311qyMKp:half-shot.uk",
+      "age": 174617000,
+      "unsigned": {
+        "age": 174617000
+      },
+      "content": {
+        "body": "One of the nice things is I can list a room under my own name and also matrix.org provided I have an account on both",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@Half-Shot:half-shot.uk",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463915036182,
+      "sender": "@Half-Shot:half-shot.uk",
+      "event_id": "$14639150362312XDMPe:half-shot.uk",
+      "age": 174604678,
+      "unsigned": {
+        "age": 174604678
+      },
+      "content": {
+        "body": "* *do*main",
+        "msgtype": "m.text",
+        "formatted_body": "<ul>\n<li><em>do</em>main</li>\n</ul>",
+        "format": "org.matrix.custom.html"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@Half-Shot:half-shot.uk",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463915964935,
+      "sender": "@trilobite17:matrix.org",
+      "event_id": "$1463915964417299RDrzw:matrix.org",
+      "age": 173675925,
+      "unsigned": {
+        "age": 173675925
+      },
+      "content": {
+        "body": "d'oh-main",
+        "msgtype": "m.text",
+        "formatted_body": "d&#39;oh-main",
+        "format": "org.matrix.custom.html"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@trilobite17:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463916281430,
+      "sender": "@Half-Shot:half-shot.uk",
+      "event_id": "$14639162812332srMoo:half-shot.uk",
+      "age": 173359430,
+      "unsigned": {
+        "age": 173359430
+      },
+      "content": {
+        "body": "places a rake beneath trilobite's feet",
+        "msgtype": "m.emote"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@Half-Shot:half-shot.uk",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463916712990,
+      "sender": "@trilobite17:matrix.org",
+      "event_id": "$1463916712418059LQaSX:matrix.org",
+      "age": 172927870,
+      "unsigned": {
+        "age": 172927870
+      },
+      "content": {
+        "body": "https://www.youtube.com/watch?v=tbd4t-ua-WQ",
+        "msgtype": "m.text",
+        "formatted_body": "<a href=\"https://www.youtube.com/watch?v=tbd4t-ua-WQ\">https://www.youtube.com/watch?v=tbd4t-ua-WQ</a>",
+        "format": "org.matrix.custom.html"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@trilobite17:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463916721031,
+      "sender": "@ivarbot:hveem.no",
+      "event_id": "$14639167211326FOGVJ:hveem.no",
+      "age": 172919829,
+      "unsigned": {
+        "age": 172919829
+      },
+      "content": {
+        "body": "[1] The Simpsons- Sideshow Bob Steps On Rakes For 10 Minutes (10:01) by mrjimmyhush [+1186/-104, 266k6 views]",
+        "msgtype": "m.notice",
+        "formatted_body": "<em>[1]</em> The Simpsons- Sideshow Bob Steps On Rakes For 10 Minutes (10:01) by mrjimmyhush [+1186/-104, 266k6 views]",
+        "format": "org.matrix.custom.html"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@ivarbot:hveem.no",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463926291096,
+      "sender": "@9680:matrix.org",
+      "event_id": "$1463926291427294rMqJf:matrix.org",
+      "age": 163349764,
+      "unsigned": {
+        "age": 163349764
+      },
+      "state_key": "@9680:matrix.org",
+      "content": {
+        "kind": "guest",
+        "avatar_url": null,
+        "displayname": "Sterver",
+        "membership": "join"
+      },
+      "membership": "join",
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@9680:matrix.org",
+      "type": "m.room.member"
+    },
+    {
+      "origin_server_ts": 1463929049408,
+      "sender": "@9683:matrix.org",
+      "event_id": "$1463929049429924mfULA:matrix.org",
+      "age": 160591452,
+      "unsigned": {
+        "age": 160591452
+      },
+      "state_key": "@9683:matrix.org",
+      "content": {
+        "kind": "guest",
+        "avatar_url": null,
+        "displayname": "Guest 9683",
+        "membership": "join"
+      },
+      "membership": "join",
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@9683:matrix.org",
+      "type": "m.room.member"
+    },
+    {
+      "origin_server_ts": 1463930986280,
+      "sender": "@hectorcm:matrix.org",
+      "event_id": "$1463930986432049pGoFK:matrix.org",
+      "age": 158654580,
+      "unsigned": {
+        "age": 158654580
+      },
+      "content": {
+        "body": "noysi_logo_3d.png",
+        "info": {
+          "mimetype": "image/png",
+          "h": 184,
+          "w": 228,
+          "size": 25127
+        },
+        "msgtype": "m.image",
+        "url": "mxc://matrix.org/lbAgeKEXDQvrytPaBFaCDXjx"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@hectorcm:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "prev_content": {
+        "membership": "leave"
+      },
+      "origin_server_ts": 1463931080409,
+      "sender": "@hectorcm:matrix.org",
+      "event_id": "$1463931080432146UpBeR:matrix.org",
+      "age": 158560451,
+      "unsigned": {
+        "prev_content": {
+          "membership": "leave"
+        },
+        "prev_sender": "@fs_IWNVUmJhZmprZnNNRFZ3ZFJEUTptYXRyaXgub3Jn:matrix.org",
+        "age": 158560451,
+        "invite_room_state": [
+          {
+            "content": {
+              "url": "mxc://jki.re/CSpTpxHXcbNPdRFYnSZzgQJH"
+            },
+            "type": "m.room.avatar",
+            "sender": "@erikj:jki.re",
+            "state_key": ""
+          },
+          {
+            "content": {
+              "alias": "#matrix:matrix.org"
+            },
+            "type": "m.room.canonical_alias",
+            "sender": "@matthew:matrix.org",
+            "state_key": ""
+          },
+          {
+            "content": {
+              "m_notification_count": 0,
+              "m_highlight_count": 0,
+              "name": "Matrix HQ"
+            },
+            "type": "m.room.name",
+            "sender": "@matthew:matrix.org",
+            "state_key": ""
+          },
+          {
+            "content": {
+              "membership": "join",
+              "avatar_url": "mxc://matrix.org/pfirzGbMRmJQMBUJmBFzjPBR",
+              "displayname": "hectorcm"
+            },
+            "type": "m.room.member",
+            "sender": "@hectorcm:matrix.org",
+            "state_key": "@hectorcm:matrix.org"
+          },
+          {
+            "content": {
+              "join_rule": "public"
+            },
+            "type": "m.room.join_rules",
+            "sender": "@erikj:jki.re",
+            "state_key": ""
+          }
+        ],
+        "replaces_state": "$1463764917266021HgFRA:matrix.org"
+      },
+      "state_key": "@fs_IWNVUmJhZmprZnNNRFZ3ZFJEUTptYXRyaXgub3Jn:matrix.org",
+      "content": {
+        "membership": "invite",
+        "avatar_url": null,
+        "displayname": "VoIP Conference"
+      },
+      "membership": "invite",
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "invite_room_state": [
+        {
+          "content": {
+            "url": "mxc://jki.re/CSpTpxHXcbNPdRFYnSZzgQJH"
+          },
+          "type": "m.room.avatar",
+          "sender": "@erikj:jki.re",
+          "state_key": ""
+        },
+        {
+          "content": {
+            "alias": "#matrix:matrix.org"
+          },
+          "type": "m.room.canonical_alias",
+          "sender": "@matthew:matrix.org",
+          "state_key": ""
+        },
+        {
+          "content": {
+            "m_notification_count": 0,
+            "m_highlight_count": 0,
+            "name": "Matrix HQ"
+          },
+          "type": "m.room.name",
+          "sender": "@matthew:matrix.org",
+          "state_key": ""
+        },
+        {
+          "content": {
+            "membership": "join",
+            "avatar_url": "mxc://matrix.org/pfirzGbMRmJQMBUJmBFzjPBR",
+            "displayname": "hectorcm"
+          },
+          "type": "m.room.member",
+          "sender": "@hectorcm:matrix.org",
+          "state_key": "@hectorcm:matrix.org"
+        },
+        {
+          "content": {
+            "join_rule": "public"
+          },
+          "type": "m.room.join_rules",
+          "sender": "@erikj:jki.re",
+          "state_key": ""
+        }
+      ],
+      "user_id": "@hectorcm:matrix.org",
+      "replaces_state": "$1463764917266021HgFRA:matrix.org",
+      "type": "m.room.member"
+    },
+    {
+      "prev_content": {
+        "membership": "invite",
+        "avatar_url": null,
+        "displayname": "VoIP Conference"
+      },
+      "origin_server_ts": 1463931082709,
+      "sender": "@hectorcm:matrix.org",
+      "event_id": "$1463931082432148ENWgX:matrix.org",
+      "age": 158558151,
+      "unsigned": {
+        "prev_content": {
+          "membership": "invite",
+          "avatar_url": null,
+          "displayname": "VoIP Conference"
+        },
+        "prev_sender": "@hectorcm:matrix.org",
+        "age": 158558151,
+        "invite_room_state": [
+          {
+            "content": {
+              "alias": "#matrix:matrix.org"
+            },
+            "type": "m.room.canonical_alias",
+            "sender": "@matthew:matrix.org",
+            "state_key": ""
+          },
+          {
+            "content": {
+              "url": "mxc://jki.re/CSpTpxHXcbNPdRFYnSZzgQJH"
+            },
+            "type": "m.room.avatar",
+            "sender": "@erikj:jki.re",
+            "state_key": ""
+          },
+          {
+            "content": {
+              "m_notification_count": 0,
+              "m_highlight_count": 0,
+              "name": "Matrix HQ"
+            },
+            "type": "m.room.name",
+            "sender": "@matthew:matrix.org",
+            "state_key": ""
+          },
+          {
+            "content": {
+              "membership": "invite",
+              "avatar_url": null,
+              "displayname": "VoIP Conference"
+            },
+            "type": "m.room.member",
+            "sender": "@hectorcm:matrix.org",
+            "state_key": "@fs_IWNVUmJhZmprZnNNRFZ3ZFJEUTptYXRyaXgub3Jn:matrix.org"
+          },
+          {
+            "content": {
+              "membership": "join",
+              "avatar_url": "mxc://matrix.org/pfirzGbMRmJQMBUJmBFzjPBR",
+              "displayname": "hectorcm"
+            },
+            "type": "m.room.member",
+            "sender": "@hectorcm:matrix.org",
+            "state_key": "@hectorcm:matrix.org"
+          },
+          {
+            "content": {
+              "join_rule": "public"
+            },
+            "type": "m.room.join_rules",
+            "sender": "@erikj:jki.re",
+            "state_key": ""
+          }
+        ],
+        "replaces_state": "$1463931080432146UpBeR:matrix.org"
+      },
+      "state_key": "@fs_IWNVUmJhZmprZnNNRFZ3ZFJEUTptYXRyaXgub3Jn:matrix.org",
+      "content": {
+        "membership": "invite",
+        "avatar_url": null,
+        "displayname": "VoIP Conference"
+      },
+      "membership": "invite",
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "invite_room_state": [
+        {
+          "content": {
+            "alias": "#matrix:matrix.org"
+          },
+          "type": "m.room.canonical_alias",
+          "sender": "@matthew:matrix.org",
+          "state_key": ""
+        },
+        {
+          "content": {
+            "url": "mxc://jki.re/CSpTpxHXcbNPdRFYnSZzgQJH"
+          },
+          "type": "m.room.avatar",
+          "sender": "@erikj:jki.re",
+          "state_key": ""
+        },
+        {
+          "content": {
+            "m_notification_count": 0,
+            "m_highlight_count": 0,
+            "name": "Matrix HQ"
+          },
+          "type": "m.room.name",
+          "sender": "@matthew:matrix.org",
+          "state_key": ""
+        },
+        {
+          "content": {
+            "membership": "invite",
+            "avatar_url": null,
+            "displayname": "VoIP Conference"
+          },
+          "type": "m.room.member",
+          "sender": "@hectorcm:matrix.org",
+          "state_key": "@fs_IWNVUmJhZmprZnNNRFZ3ZFJEUTptYXRyaXgub3Jn:matrix.org"
+        },
+        {
+          "content": {
+            "membership": "join",
+            "avatar_url": "mxc://matrix.org/pfirzGbMRmJQMBUJmBFzjPBR",
+            "displayname": "hectorcm"
+          },
+          "type": "m.room.member",
+          "sender": "@hectorcm:matrix.org",
+          "state_key": "@hectorcm:matrix.org"
+        },
+        {
+          "content": {
+            "join_rule": "public"
+          },
+          "type": "m.room.join_rules",
+          "sender": "@erikj:jki.re",
+          "state_key": ""
+        }
+      ],
+      "user_id": "@hectorcm:matrix.org",
+      "replaces_state": "$1463931080432146UpBeR:matrix.org",
+      "type": "m.room.member"
+    },
+    {
+      "prev_content": {
+        "membership": "invite",
+        "avatar_url": null,
+        "displayname": "VoIP Conference"
+      },
+      "origin_server_ts": 1463931084833,
+      "sender": "@fs_IWNVUmJhZmprZnNNRFZ3ZFJEUTptYXRyaXgub3Jn:matrix.org",
+      "event_id": "$1463931084432158ROwpl:matrix.org",
+      "age": 158556027,
+      "unsigned": {
+        "prev_content": {
+          "membership": "invite",
+          "avatar_url": null,
+          "displayname": "VoIP Conference"
+        },
+        "prev_sender": "@hectorcm:matrix.org",
+        "replaces_state": "$1463931082432148ENWgX:matrix.org",
+        "age": 158556027
+      },
+      "state_key": "@fs_IWNVUmJhZmprZnNNRFZ3ZFJEUTptYXRyaXgub3Jn:matrix.org",
+      "content": {
+        "membership": "join",
+        "avatar_url": null,
+        "displayname": "VoIP Conference"
+      },
+      "membership": "join",
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@fs_IWNVUmJhZmprZnNNRFZ3ZFJEUTptYXRyaXgub3Jn:matrix.org",
+      "replaces_state": "$1463931082432148ENWgX:matrix.org",
+      "type": "m.room.member"
+    },
+    {
+      "prev_content": {
+        "membership": "join",
+        "avatar_url": null,
+        "displayname": "VoIP Conference"
+      },
+      "origin_server_ts": 1463931125209,
+      "sender": "@fs_IWNVUmJhZmprZnNNRFZ3ZFJEUTptYXRyaXgub3Jn:matrix.org",
+      "event_id": "$1463931125432220EmoeO:matrix.org",
+      "age": 158515651,
+      "unsigned": {
+        "prev_content": {
+          "membership": "join",
+          "avatar_url": null,
+          "displayname": "VoIP Conference"
+        },
+        "prev_sender": "@fs_IWNVUmJhZmprZnNNRFZ3ZFJEUTptYXRyaXgub3Jn:matrix.org",
+        "replaces_state": "$1463931084432158ROwpl:matrix.org",
+        "age": 158515651
+      },
+      "state_key": "@fs_IWNVUmJhZmprZnNNRFZ3ZFJEUTptYXRyaXgub3Jn:matrix.org",
+      "content": {
+        "membership": "leave"
+      },
+      "membership": "leave",
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@fs_IWNVUmJhZmprZnNNRFZ3ZFJEUTptYXRyaXgub3Jn:matrix.org",
+      "replaces_state": "$1463931084432158ROwpl:matrix.org",
+      "type": "m.room.member"
+    },
+    {
+      "prev_content": {
+        "membership": "join",
+        "avatar_url": "mxc://half-shot.uk/ByEETmWLXgmBuSCpwdneJsBa",
+        "displayname": "Half-Shot"
+      },
+      "origin_server_ts": 1463935010473,
+      "sender": "@Half-Shot:half-shot.uk",
+      "event_id": "$14639350102401HlGGe:half-shot.uk",
+      "age": 154630387,
+      "unsigned": {
+        "prev_content": {
+          "membership": "join",
+          "avatar_url": "mxc://half-shot.uk/ByEETmWLXgmBuSCpwdneJsBa",
+          "displayname": "Half-Shot"
+        },
+        "prev_sender": "@Half-Shot:half-shot.uk",
+        "replaces_state": "$14637377231554SUMHJ:half-shot.uk",
+        "age": 154630387
+      },
+      "state_key": "@Half-Shot:half-shot.uk",
+      "content": {
+        "membership": "join",
+        "avatar_url": "mxc://half-shot.uk/yitxturOQwflhLrbRLHNFWIC",
+        "displayname": "Half-Shot"
+      },
+      "membership": "join",
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@Half-Shot:half-shot.uk",
+      "replaces_state": "$14637377231554SUMHJ:half-shot.uk",
+      "type": "m.room.member"
+    },
+    {
+      "origin_server_ts": 1463943280150,
+      "sender": "@freenode_Yaniel:matrix.org",
+      "event_id": "$1463943280446757mGCvK:matrix.org",
+      "age": 146360710,
+      "unsigned": {
+        "age": 146360710
+      },
+      "content": {
+        "body": "how prone to breakage and how up to date is the aur synapse package",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@freenode_Yaniel:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463943282286,
+      "sender": "@freenode_Yaniel:matrix.org",
+      "event_id": "$1463943282446761ZcujR:matrix.org",
+      "age": 146358574,
+      "unsigned": {
+        "age": 146358574
+      },
+      "content": {
+        "body": "?",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@freenode_Yaniel:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463950550708,
+      "sender": "@matthew:matrix.org",
+      "event_id": "$1463950550456619GfxnC:matrix.org",
+      "age": 139090152,
+      "unsigned": {
+        "age": 139090152
+      },
+      "content": {
+        "body": "intelfx releases it, and i have heard no complaints",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@matthew:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463950569901,
+      "sender": "@matthew:matrix.org",
+      "event_id": "$1463950569456643plzUP:matrix.org",
+      "age": 139070959,
+      "unsigned": {
+        "age": 139070959
+      },
+      "content": {
+        "body": "plus i saw he packaged the 0.15-rc1, which is above and beyond the call of duty",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@matthew:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463950584619,
+      "sender": "@matthew:matrix.org",
+      "event_id": "$1463950584456669dvRNh:matrix.org",
+      "age": 139056241,
+      "unsigned": {
+        "age": 139056241
+      },
+      "content": {
+        "body": "(but just as well given we got distracted before we released 0.15 proper)",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@matthew:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463952100201,
+      "sender": "@freenode_redfish:matrix.org",
+      "event_id": "$1463952100458710xDuao:matrix.org",
+      "age": 137540659,
+      "unsigned": {
+        "age": 137540659
+      },
+      "content": {
+        "body": "Yaniel: i installed aur synapse on arm a while ago, it worked",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@freenode_redfish:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "prev_content": {
+        "membership": "leave"
+      },
+      "origin_server_ts": 1463957973598,
+      "sender": "@yaniel:kolm.io",
+      "event_id": "$14639579742xSWNF:kolm.io",
+      "age": 761,
+      "unsigned": {
+        "prev_content": {
+          "membership": "leave"
+        },
+        "age": 761,
+        "replaces_state": "$14539024571710tPwQj:kolm.io",
+        "prev_sender": "@yaniel:kolm.io"
+      },
+      "state_key": "@yaniel:kolm.io",
+      "content": {
+        "membership": "join",
+        "avatar_url": null,
+        "displayname": "Yaniel"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@yaniel:kolm.io",
+      "replaces_state": "$14539024571710tPwQj:kolm.io",
+      "type": "m.room.member"
+    },
+    {
+      "origin_server_ts": 1463958674677,
+      "sender": "@Happyboyforgirl:matrix.org",
+      "event_id": "$1463958674467853fYFss:matrix.org",
+      "age": 130966183,
+      "unsigned": {
+        "age": 130966183
+      },
+      "state_key": "@Happyboyforgirl:matrix.org",
+      "content": {
+        "membership": "join",
+        "avatar_url": null,
+        "displayname": null
+      },
+      "membership": "join",
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@Happyboyforgirl:matrix.org",
+      "type": "m.room.member"
+    },
+    {
+      "origin_server_ts": 1463958692623,
+      "sender": "@Happyboyforgirl:matrix.org",
+      "event_id": "$1463958692467873UgqxW:matrix.org",
+      "age": 130948237,
+      "unsigned": {
+        "age": 130948237
+      },
+      "content": {
+        "body": "Hi",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@Happyboyforgirl:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463958708141,
+      "sender": "@yaniel:kolm.io",
+      "event_id": "$146395870826wWYvt:kolm.io",
+      "age": 130932719,
+      "unsigned": {
+        "age": 130932719
+      },
+      "content": {
+        "body": "Hi there",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@yaniel:kolm.io",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463958727423,
+      "sender": "@Half-Shot:half-shot.uk",
+      "event_id": "$14639587272692neKLn:half-shot.uk",
+      "age": 130913437,
+      "unsigned": {
+        "age": 130913437
+      },
+      "content": {
+        "body": "Hey",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@Half-Shot:half-shot.uk",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463958954861,
+      "sender": "@yaniel:kolm.io",
+      "event_id": "$146395895436lfUrU:kolm.io",
+      "age": 130685999,
+      "unsigned": {
+        "age": 130685999
+      },
+      "content": {
+        "body": "I take it my federation works",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@yaniel:kolm.io",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463958970127,
+      "sender": "@roblabla:cmc.im",
+      "event_id": "$14639589709327EtPGz:cmc.im",
+      "age": 130670733,
+      "unsigned": {
+        "age": 130670733
+      },
+      "content": {
+        "body": "Probably does :D",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@roblabla:cmc.im",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463958974737,
+      "sender": "@Half-Shot:half-shot.uk",
+      "event_id": "$14639589742693LNOPb:half-shot.uk",
+      "age": 130666123,
+      "unsigned": {
+        "age": 130666123
+      },
+      "content": {
+        "body": "*nods*",
+        "msgtype": "m.text",
+        "formatted_body": "<em>nods</em>",
+        "format": "org.matrix.custom.html"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@Half-Shot:half-shot.uk",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463958982884,
+      "sender": "@yaniel:kolm.io",
+      "event_id": "$146395898237xmVbk:kolm.io",
+      "age": 130657976,
+      "unsigned": {
+        "age": 130657976
+      },
+      "content": {
+        "body": ":3",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@yaniel:kolm.io",
+      "type": "m.room.message"
+    },
+    {
+      "prev_content": {
+        "membership": "join",
+        "avatar_url": null,
+        "displayname": null
+      },
+      "origin_server_ts": 1463959216695,
+      "sender": "@Happyboyforgirl:matrix.org",
+      "event_id": "$1463959216468608JIgrO:matrix.org",
+      "age": 130424165,
+      "unsigned": {
+        "prev_content": {
+          "membership": "join",
+          "avatar_url": null,
+          "displayname": null
+        },
+        "prev_sender": "@Happyboyforgirl:matrix.org",
+        "replaces_state": "$1463958674467853fYFss:matrix.org",
+        "age": 130424165
+      },
+      "state_key": "@Happyboyforgirl:matrix.org",
+      "content": {
+        "membership": "join",
+        "avatar_url": null,
+        "displayname": "Roberto"
+      },
+      "membership": "join",
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@Happyboyforgirl:matrix.org",
+      "replaces_state": "$1463958674467853fYFss:matrix.org",
+      "type": "m.room.member"
+    },
+    {
+      "origin_server_ts": 1463959262769,
+      "sender": "@yaniel:kolm.io",
+      "event_id": "$146395926242rqoUj:kolm.io",
+      "age": 130378091,
+      "unsigned": {
+        "age": 130378091
+      },
+      "content": {
+        "body": "This time I actually got the letsencrypt stuff working on the first try. And postgresql too, for good measure. :)",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@yaniel:kolm.io",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463959332735,
+      "sender": "@yaniel:kolm.io",
+      "event_id": "$146395933243yIGeD:kolm.io",
+      "age": 130308125,
+      "unsigned": {
+        "age": 130308125
+      },
+      "content": {
+        "body": "I can't add a local (visible in room directory) address for this room?",
+        "msgtype": "m.text",
+        "formatted_body": "I can&#39;t add a local (visible in room directory) address for this room?",
+        "format": "org.matrix.custom.html"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@yaniel:kolm.io",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463959753437,
+      "sender": "@matthew:matrix.org",
+      "event_id": "$1463959753469318XGoBl:matrix.org",
+      "age": 129887423,
+      "unsigned": {
+        "age": 129887423
+      },
+      "content": {
+        "body": "you should be able to",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@matthew:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463959760783,
+      "sender": "@matthew:matrix.org",
+      "event_id": "$1463959760469333WgVYg:matrix.org",
+      "age": 129880077,
+      "unsigned": {
+        "age": 129880077
+      },
+      "content": {
+        "body": "what's the prob?",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@matthew:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463959796989,
+      "sender": "@yaniel:kolm.io",
+      "event_id": "$146395979646VlpfQ:kolm.io",
+      "age": 129843871,
+      "unsigned": {
+        "age": 129843871
+      },
+      "content": {
+        "body": "the checkbox is disabled",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@yaniel:kolm.io",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463993485236,
+      "sender": "@intelfx:intelfx.name",
+      "event_id": "$146399348529NYdCb:intelfx.name",
+      "age": 96155624,
+      "unsigned": {
+        "age": 96155624
+      },
+      "content": {
+        "body": "Yaniel: there is also [matrix-synapse-git](https://aur.archlinux.org/packages/matrix-synapse-git) package, which tracks the develop branch of synapse.",
+        "msgtype": "m.text",
+        "formatted_body": "Yaniel: there is also <a href=\"https://aur.archlinux.org/packages/matrix-synapse-git\">matrix-synapse-git</a> package, which tracks the develop branch of synapse.",
+        "format": "org.matrix.custom.html"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@intelfx:intelfx.name",
+      "type": "m.room.message"
+    },
+    {
+      "prev_content": {
+        "membership": "join",
+        "avatar_url": "mxc://matrix.org/oGziWamjsIVLUzkbrNZaAmwC",
+        "displayname": "camoyoshi"
+      },
+      "origin_server_ts": 1463972131562,
+      "sender": "@camoyoshi:matrix.org",
+      "event_id": "$1463972131482121DJBFd:matrix.org",
+      "age": 117509298,
+      "unsigned": {
+        "prev_content": {
+          "membership": "join",
+          "avatar_url": "mxc://matrix.org/oGziWamjsIVLUzkbrNZaAmwC",
+          "displayname": "camoyoshi"
+        },
+        "prev_sender": "@camoyoshi:matrix.org",
+        "replaces_state": "$1463680463145846yrJup:matrix.org",
+        "age": 117509298
+      },
+      "state_key": "@camoyoshi:matrix.org",
+      "content": {
+        "membership": "leave"
+      },
+      "membership": "leave",
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@camoyoshi:matrix.org",
+      "replaces_state": "$1463680463145846yrJup:matrix.org",
+      "type": "m.room.member"
+    },
+    {
+      "origin_server_ts": 1463993496699,
+      "sender": "@intelfx:intelfx.name",
+      "event_id": "$146399349630vwlOb:intelfx.name",
+      "age": 96144161,
+      "unsigned": {
+        "age": 96144161
+      },
+      "content": {
+        "body": "(backlogging)",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@intelfx:intelfx.name",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463981138616,
+      "sender": "@wint3r:matrix.org",
+      "event_id": "$1463981138489116ufJaU:matrix.org",
+      "age": 108502244,
+      "unsigned": {
+        "age": 108502244
+      },
+      "state_key": "@wint3r:matrix.org",
+      "content": {
+        "membership": "join",
+        "avatar_url": null,
+        "displayname": null
+      },
+      "membership": "join",
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@wint3r:matrix.org",
+      "type": "m.room.member"
+    },
+    {
+      "origin_server_ts": 1463993863546,
+      "sender": "@intelfx:intelfx.name",
+      "event_id": "$146399386358KCYJQ:intelfx.name",
+      "age": 95777314,
+      "unsigned": {
+        "age": 95777314
+      },
+      "content": {
+        "body": "Matthew: we (at #русскоязычная:matrix.org) were just trying to understand various forms of per-room visual notifications in vector-web. So far we've seen four:\n\n* bold highlight of room name\n* red highlight of room name\n* bold dot to the left of room name\n* a number to the right of room name\n\nThe two latter forms are apparently buggy: we were not able to understand how and when exactly they appear.",
+        "msgtype": "m.text",
+        "formatted_body": "Matthew: we (at #русскоязычная:matrix.org) were just trying to understand various forms of per-room visual notifications in vector-web. So far we&#39;ve seen four:</p>\n<ul>\n<li>bold highlight of room name</li>\n<li>red highlight of room name</li>\n<li>bold dot to the left of room name</li>\n<li>a number to the right of room name</li>\n</ul>\n<p>The two latter forms are apparently buggy: we were not able to understand how and when exactly they appear.",
+        "format": "org.matrix.custom.html"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@intelfx:intelfx.name",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463981781275,
+      "sender": "@wint3r:matrix.org",
+      "event_id": "$1463981781489619eNNGU:matrix.org",
+      "age": 107859585,
+      "unsigned": {
+        "age": 107859585
+      },
+      "content": {
+        "body": "finally got Tensor working ",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@wint3r:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463993939994,
+      "sender": "@intelfx:intelfx.name",
+      "event_id": "$146399393961mnJms:intelfx.name",
+      "age": 95700866,
+      "unsigned": {
+        "age": 95700866
+      },
+      "content": {
+        "body": "The number apparently relates to the amount of unread messages in the room, though sometimes (e. g. in bridged irc rooms) it simply does not appear.",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@intelfx:intelfx.name",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463986450506,
+      "sender": "@davidar:matrix.org",
+      "event_id": "$1463986450493269XqYHf:matrix.org",
+      "age": 103190354,
+      "unsigned": {
+        "age": 103190354
+      },
+      "content": {
+        "body": "@wint3r:matrix.org: did you have trouble getting it working?",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@davidar:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463986553084,
+      "sender": "@wint3r:matrix.org",
+      "event_id": "$1463986553493347BcpQI:matrix.org",
+      "age": 103087776,
+      "unsigned": {
+        "age": 103087776
+      },
+      "content": {
+        "body": "No actually it directly asks for username and password. And I just learned about matrix last night via F-droid. So I had to create an account for Vector first then log in.",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@wint3r:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463986566693,
+      "sender": "@wint3r:matrix.org",
+      "event_id": "$1463986566493357ApaRR:matrix.org",
+      "age": 103074167,
+      "unsigned": {
+        "age": 103074167
+      },
+      "content": {
+        "body": "Vector works pretty good",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@wint3r:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463986985937,
+      "sender": "@wint3r:matrix.org",
+      "event_id": "$1463986985493690lkvqE:matrix.org",
+      "age": 102654923,
+      "unsigned": {
+        "age": 102654923
+      },
+      "content": {
+        "body": "Would you say matrix in general is meant just for Teams working on projects or can it be used for socializing in its normal sense?",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@wint3r:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463987006040,
+      "sender": "@wint3r:matrix.org",
+      "event_id": "$1463987006493716ekgJv:matrix.org",
+      "age": 102634820,
+      "unsigned": {
+        "age": 102634820
+      },
+      "content": {
+        "body": "Be advised I'm really new here",
+        "msgtype": "m.text",
+        "formatted_body": "Be advised I&#39;m really new here",
+        "format": "org.matrix.custom.html"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@wint3r:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463987061342,
+      "sender": "@Half-Shot:half-shot.uk",
+      "event_id": "$14639870612776AQgHy:half-shot.uk",
+      "age": 102579518,
+      "unsigned": {
+        "age": 102579518
+      },
+      "content": {
+        "body": "I use it for both",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@Half-Shot:half-shot.uk",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463987105603,
+      "sender": "@Half-Shot:half-shot.uk",
+      "event_id": "$14639871052777YqPVn:half-shot.uk",
+      "age": 102535257,
+      "unsigned": {
+        "age": 102535257
+      },
+      "content": {
+        "body": "I'd say there is a slight emphasis on teams, but it doesn't really matter.",
+        "msgtype": "m.text",
+        "formatted_body": "I&#39;d say there is a slight emphasis on teams, but it doesn&#39;t really matter.",
+        "format": "org.matrix.custom.html"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@Half-Shot:half-shot.uk",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463987247541,
+      "sender": "@wint3r:matrix.org",
+      "event_id": "$1463987247493973YPdor:matrix.org",
+      "age": 102393319,
+      "unsigned": {
+        "age": 102393319
+      },
+      "content": {
+        "body": "Yes. I almost agree with you there. I created a group with few of my Friends. Everything is fine. Except for sharing the videos. Although, it's not that big an issue, but it is a notable one.",
+        "msgtype": "m.text",
+        "formatted_body": "Yes. I almost agree with you there. I created a group with few of my Friends. Everything is fine. Except for sharing the videos. Although, it&#39;s not that big an issue, but it is a notable one.",
+        "format": "org.matrix.custom.html"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@wint3r:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "prev_content": {
+        "membership": "join",
+        "avatar_url": null,
+        "displayname": null
+      },
+      "origin_server_ts": 1463987397333,
+      "sender": "@wint3r:matrix.org",
+      "event_id": "$1463987397494122EjVcg:matrix.org",
+      "age": 102243527,
+      "unsigned": {
+        "prev_content": {
+          "membership": "join",
+          "avatar_url": null,
+          "displayname": null
+        },
+        "prev_sender": "@wint3r:matrix.org",
+        "replaces_state": "$1463981138489116ufJaU:matrix.org",
+        "age": 102243527
+      },
+      "state_key": "@wint3r:matrix.org",
+      "content": {
+        "membership": "join",
+        "avatar_url": null,
+        "displayname": "winter"
+      },
+      "membership": "join",
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@wint3r:matrix.org",
+      "replaces_state": "$1463981138489116ufJaU:matrix.org",
+      "type": "m.room.member"
+    },
+    {
+      "origin_server_ts": 1463987432453,
+      "sender": "@Half-Shot:half-shot.uk",
+      "event_id": "$14639874322778TnRBi:half-shot.uk",
+      "age": 102208407,
+      "unsigned": {
+        "age": 102208407
+      },
+      "content": {
+        "body": "Agreed. It's not an area that has received much focus and I imagine video streaming doesn't play nice with the matrix content system.",
+        "msgtype": "m.text",
+        "formatted_body": "Agreed. It&#39;s not an area that has received much focus and I imagine video streaming doesn&#39;t play nice with the matrix content system.",
+        "format": "org.matrix.custom.html"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@Half-Shot:half-shot.uk",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463987446971,
+      "sender": "@Half-Shot:half-shot.uk",
+      "event_id": "$14639874462779eWDdR:half-shot.uk",
+      "age": 102193889,
+      "unsigned": {
+        "age": 102193889
+      },
+      "content": {
+        "body": "Probably something to look into down the line.",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@Half-Shot:half-shot.uk",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463987524485,
+      "sender": "@wint3r:matrix.org",
+      "event_id": "$1463987524494266yFeuc:matrix.org",
+      "age": 102116375,
+      "unsigned": {
+        "age": 102116375
+      },
+      "content": {
+        "body": "And. I should mention I'm talking about the Android clients. And more specifically Vector",
+        "msgtype": "m.text",
+        "formatted_body": "And. I should mention I&#39;m talking about the Android clients. And more specifically Vector",
+        "format": "org.matrix.custom.html"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@wint3r:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463987884726,
+      "sender": "@wint3r:matrix.org",
+      "event_id": "$1463987884494741EKtiA:matrix.org",
+      "age": 101756134,
+      "unsigned": {
+        "age": 101756134
+      },
+      "content": {
+        "body": "Half-Shot: Congratulations Btw. Just read the blog.",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@wint3r:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463987915810,
+      "sender": "@Half-Shot:half-shot.uk",
+      "event_id": "$14639879152784RSElt:half-shot.uk",
+      "age": 101725050,
+      "unsigned": {
+        "age": 101725050
+      },
+      "content": {
+        "body": "Thanks :)",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@Half-Shot:half-shot.uk",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463987934650,
+      "sender": "@doublemalt:cloudfleet.io",
+      "event_id": "$146398793452hLiez:cloudfleet.io",
+      "age": 101706210,
+      "unsigned": {
+        "age": 101706210
+      },
+      "content": {
+        "body": "For me there are three things I want to use Matrix for:\n- Self-Hosted OS Slack replacement for the team\n- Multidevice, Multiprotocol Client for all my chat needs ( an integrate this in cloudfleet.io )\n- Gateway to the smarrt assistants we want to implement on top of cloudfleet.io ",
+        "msgtype": "m.text",
+        "formatted_body": "For me there are three things I want to use Matrix for:</p>\n<ul>\n<li>Self-Hosted OS Slack replacement for the team</li>\n<li>Multidevice, Multiprotocol Client for all my chat needs ( an integrate this in cloudfleet.io )</li>\n<li>Gateway to the smarrt assistants we want to implement on top of cloudfleet.io </li>\n</ul>",
+        "format": "org.matrix.custom.html"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@doublemalt:cloudfleet.io",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463988062452,
+      "sender": "@turt2live:matrix.org",
+      "event_id": "$1463988062494965Rjmqu:matrix.org",
+      "age": 101578408,
+      "unsigned": {
+        "age": 101578408
+      },
+      "content": {
+        "body": "We're using it to get rid of our IRC channels... and that's pretty much it for now.",
+        "msgtype": "m.text",
+        "formatted_body": "We&#39;re using it to get rid of our IRC channels... and that&#39;s pretty much it for now.",
+        "format": "org.matrix.custom.html"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@turt2live:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463988193680,
+      "sender": "@wint3r:matrix.org",
+      "event_id": "$1463988193495102NTAWb:matrix.org",
+      "age": 101447180,
+      "unsigned": {
+        "age": 101447180
+      },
+      "content": {
+        "body": "I'm using it for: ...",
+        "msgtype": "m.text",
+        "formatted_body": "I&#39;m using it for: ...",
+        "format": "org.matrix.custom.html"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@wint3r:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463988233447,
+      "sender": "@wint3r:matrix.org",
+      "event_id": "$1463988233495146jCySq:matrix.org",
+      "age": 101407413,
+      "unsigned": {
+        "age": 101407413
+      },
+      "content": {
+        "body": "I don't know actually. I stumbled upon it last night. It's nice",
+        "msgtype": "m.text",
+        "formatted_body": "I don&#39;t know actually. I stumbled upon it last night. It&#39;s nice",
+        "format": "org.matrix.custom.html"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@wint3r:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463988259484,
+      "sender": "@wint3r:matrix.org",
+      "event_id": "$1463988259495168RAxfs:matrix.org",
+      "age": 101381376,
+      "unsigned": {
+        "age": 101381376
+      },
+      "content": {
+        "body": "I feel soon noob here",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@wint3r:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463988267376,
+      "sender": "@wint3r:matrix.org",
+      "event_id": "$1463988267495173ktwfu:matrix.org",
+      "age": 101373484,
+      "unsigned": {
+        "age": 101373484
+      },
+      "content": {
+        "body": "So* noob",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@wint3r:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463988332510,
+      "sender": "@turt2live:matrix.org",
+      "event_id": "$1463988332495228XiLmc:matrix.org",
+      "age": 101308350,
+      "unsigned": {
+        "age": 101308350
+      },
+      "content": {
+        "body": "I'm trying to convince people that I won't talk to them unless they create an account on here, so there's that",
+        "msgtype": "m.text",
+        "formatted_body": "I&#39;m trying to convince people that I won&#39;t talk to them unless they create an account on here, so there&#39;s that",
+        "format": "org.matrix.custom.html"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@turt2live:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463988337553,
+      "sender": "@kulps:matrix.org",
+      "event_id": "$1463988337495231lIzGk:matrix.org",
+      "age": 101303307,
+      "unsigned": {
+        "age": 101303307
+      },
+      "content": {
+        "body": "That's fine, chat platforms need users, even if they don't have a specific use case beyond chat.",
+        "msgtype": "m.text",
+        "formatted_body": "That&#39;s fine,  chat platforms need users,  even if they don&#39;t have a specific use case beyond chat.",
+        "format": "org.matrix.custom.html"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@kulps:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463988422839,
+      "sender": "@kulps:matrix.org",
+      "event_id": "$1463988422495330rroZM:matrix.org",
+      "age": 101218021,
+      "unsigned": {
+        "age": 101218021
+      },
+      "content": {
+        "body": "I'm less convinced that's the easiest approach but in general I support you",
+        "msgtype": "m.text",
+        "formatted_body": "I&#39;m less convinced that&#39;s the easiest approach but in general I support you",
+        "format": "org.matrix.custom.html"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@kulps:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463988446913,
+      "sender": "@wint3r:matrix.org",
+      "event_id": "$1463988446495362ZiERz:matrix.org",
+      "age": 101193947,
+      "unsigned": {
+        "age": 101193947
+      },
+      "content": {
+        "body": "Oh. I guess I'm kinda beta tester. Yannick from #android:matrix.org gave me the beta build. Was working on the video upload",
+        "msgtype": "m.text",
+        "formatted_body": "Oh. I guess I&#39;m kinda beta tester. Yannick from #android:matrix.org gave me the beta build. Was working on the video upload",
+        "format": "org.matrix.custom.html"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@wint3r:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463988499426,
+      "sender": "@wint3r:matrix.org",
+      "event_id": "$1463988499495413BOgQC:matrix.org",
+      "age": 101141434,
+      "unsigned": {
+        "age": 101141434
+      },
+      "content": {
+        "body": "I agree kulps (@kulps:matrix.org)",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@wint3r:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463988523949,
+      "sender": "@wint3r:matrix.org",
+      "event_id": "$1463988523495438TLUTv:matrix.org",
+      "age": 101116911,
+      "unsigned": {
+        "age": 101116911
+      },
+      "content": {
+        "body": "It's not that easy if you are not familiar with it.",
+        "msgtype": "m.text",
+        "formatted_body": "It&#39;s not that easy if you are not familiar with it.",
+        "format": "org.matrix.custom.html"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@wint3r:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463988560254,
+      "sender": "@kulps:matrix.org",
+      "event_id": "$1463988560495468IBcfS:matrix.org",
+      "age": 101080606,
+      "unsigned": {
+        "age": 101080606
+      },
+      "content": {
+        "body": "To be fair turt and I are trying to convince the same group of people to switch, I'm just a bit more of a soft touch with it",
+        "msgtype": "m.text",
+        "formatted_body": "To be fair turt and I are trying to convince the same group of people to switch,  I&#39;m just a bit more of a soft touch with it",
+        "format": "org.matrix.custom.html"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@kulps:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463988605222,
+      "sender": "@kulps:matrix.org",
+      "event_id": "$1463988605495512IZByo:matrix.org",
+      "age": 101035638,
+      "unsigned": {
+        "age": 101035638
+      },
+      "content": {
+        "body": "As for ease of use, it's heaps easier than IRC for most of our audience",
+        "msgtype": "m.text",
+        "formatted_body": "As for ease of use,  it&#39;s heaps easier than IRC for most of our audience",
+        "format": "org.matrix.custom.html"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@kulps:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463988625828,
+      "sender": "@kulps:matrix.org",
+      "event_id": "$1463988625495545QiMJK:matrix.org",
+      "age": 101015032,
+      "unsigned": {
+        "age": 101015032
+      },
+      "content": {
+        "body": "IRC is pretty foreign to most folks these days",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@kulps:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463988657221,
+      "sender": "@turt2live:matrix.org",
+      "event_id": "$1463988657495580lAmsp:matrix.org",
+      "age": 100983639,
+      "unsigned": {
+        "age": 100983639
+      },
+      "content": {
+        "body": "(I prefer throwing my friends in the deep end, kulps at least shows them what it is first)",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@turt2live:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463988806082,
+      "sender": "@kulps:matrix.org",
+      "event_id": "$1463988806495731QYVUY:matrix.org",
+      "age": 100834778,
+      "unsigned": {
+        "age": 100834778
+      },
+      "content": {
+        "body": "Well, and I'm also trying to convert my company to use it over lync/skypeforbusiness",
+        "msgtype": "m.text",
+        "formatted_body": "Well,  and I&#39;m also trying to convert my company to use it over lync/skypeforbusiness",
+        "format": "org.matrix.custom.html"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@kulps:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463988837425,
+      "sender": "@kulps:matrix.org",
+      "event_id": "$1463988837495774ZtsrK:matrix.org",
+      "age": 100803435,
+      "unsigned": {
+        "age": 100803435
+      },
+      "content": {
+        "body": "So I need to practice the soft sell a bit more",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@kulps:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463988870201,
+      "sender": "@wint3r:matrix.org",
+      "event_id": "$1463988870495801DBGMh:matrix.org",
+      "age": 100770659,
+      "unsigned": {
+        "age": 100770659
+      },
+      "content": {
+        "body": "Yes. Well. Most people use Proprietary Instant messaging services. See that is what I meant. It is not much use to the general population as of yet. But I think I got a hang of it",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@wint3r:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463988911371,
+      "sender": "@doublemalt:cloudfleet.io",
+      "event_id": "$146398891153auOvV:cloudfleet.io",
+      "age": 100729489,
+      "unsigned": {
+        "age": 100729489
+      },
+      "content": {
+        "body": "kulps: now synapse can also authenticate against AD over LDAP",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@doublemalt:cloudfleet.io",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463988928223,
+      "sender": "@doublemalt:cloudfleet.io",
+      "event_id": "$146398892854CCKth:cloudfleet.io",
+      "age": 100712637,
+      "unsigned": {
+        "age": 100712637
+      },
+      "content": {
+        "body": "might be a selling point for MS shops",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@doublemalt:cloudfleet.io",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463988978488,
+      "sender": "@kulps:matrix.org",
+      "event_id": "$1463988978495905WXEUq:matrix.org",
+      "age": 100662372,
+      "unsigned": {
+        "age": 100662372
+      },
+      "content": {
+        "body": "Well, if you're looking to convince somebody to try it out, find what's stupid about their platform of choice and see if matrix sites that better, if not, suggest it here and somebody might make it better",
+        "msgtype": "m.text",
+        "formatted_body": "Well,  if you&#39;re looking to convince somebody to try it out,  find what&#39;s stupid about their platform of choice and see if matrix sites that better,  if not,  suggest it here and somebody might make it better",
+        "format": "org.matrix.custom.html"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@kulps:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463989023676,
+      "sender": "@kulps:matrix.org",
+      "event_id": "$1463989023495946RCzMQ:matrix.org",
+      "age": 100617184,
+      "unsigned": {
+        "age": 100617184
+      },
+      "content": {
+        "body": "I'm so thrilled that was made better, I'm not sure if it was you who did that, but I requested it and it was in testing like 4 days later",
+        "msgtype": "m.text",
+        "formatted_body": "I&#39;m so thrilled that was made better, I&#39;m not sure if it was you who did that,  but I requested it and it was in testing like 4 days later",
+        "format": "org.matrix.custom.html"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@kulps:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463989034554,
+      "sender": "@kulps:matrix.org",
+      "event_id": "$1463989034495953cGYYT:matrix.org",
+      "age": 100606306,
+      "unsigned": {
+        "age": 100606306
+      },
+      "content": {
+        "body": "We are certainly an ms shop",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@kulps:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463989086487,
+      "sender": "@doublemalt:cloudfleet.io",
+      "event_id": "$146398908655hzKWl:cloudfleet.io",
+      "age": 100554373,
+      "unsigned": {
+        "age": 100554373
+      },
+      "content": {
+        "body": "(LDAP? Was me, but purely for selfish reasons because I needed it ;) )",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@doublemalt:cloudfleet.io",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463989112681,
+      "sender": "@kulps:matrix.org",
+      "event_id": "$1463989112496056ePbpL:matrix.org",
+      "age": 100528179,
+      "unsigned": {
+        "age": 100528179
+      },
+      "content": {
+        "body": "Happy coincidence,  then",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@kulps:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463989151605,
+      "sender": "@kulps:matrix.org",
+      "event_id": "$1463989151496096lETZU:matrix.org",
+      "age": 100489255,
+      "unsigned": {
+        "age": 100489255
+      },
+      "content": {
+        "body": "I needed it to sell it at work,  too",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@kulps:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463989155487,
+      "sender": "@doublemalt:cloudfleet.io",
+      "event_id": "$146398915556ShhSB:cloudfleet.io",
+      "age": 100485373,
+      "unsigned": {
+        "age": 100485373
+      },
+      "content": {
+        "body": "And Erik et al. were extremely helpful at asking my questions",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@doublemalt:cloudfleet.io",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463989199462,
+      "sender": "@doublemalt:cloudfleet.io",
+      "event_id": "$146398919957tBVjR:cloudfleet.io",
+      "age": 100441398,
+      "unsigned": {
+        "age": 100441398
+      },
+      "content": {
+        "body": "if you see any bug or a way to make it better, just tell me",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@doublemalt:cloudfleet.io",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463989405606,
+      "sender": "@wint3r:matrix.org",
+      "event_id": "$1463989405496356xfHXX:matrix.org",
+      "age": 100235254,
+      "unsigned": {
+        "age": 100235254
+      },
+      "content": {
+        "body": "turt2live: kulps (@kulps:matrix.org) where are you with convincing folks? Any major breakthrough?",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@wint3r:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463989488783,
+      "sender": "@turt2live:matrix.org",
+      "event_id": "$1463989488496438GJqYk:matrix.org",
+      "age": 100152077,
+      "unsigned": {
+        "age": 100152077
+      },
+      "content": {
+        "body": "We haven't done a whole lot of advertising in our group yet, but so far about 80% of the people we mention it to have converted",
+        "msgtype": "m.text",
+        "formatted_body": "We haven&#39;t done a whole lot of advertising in our group yet, but so far about 80% of the people we mention it to have converted",
+        "format": "org.matrix.custom.html"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@turt2live:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463989517806,
+      "sender": "@turt2live:matrix.org",
+      "event_id": "$1463989517496473lwEbc:matrix.org",
+      "age": 100123054,
+      "unsigned": {
+        "age": 100123054
+      },
+      "content": {
+        "body": "Talking to people and showing them how it works seems to be the best approach, unlike my preferred method",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@turt2live:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463989555681,
+      "sender": "@kulps:matrix.org",
+      "event_id": "$1463989555496516ZUXKY:matrix.org",
+      "age": 100085179,
+      "unsigned": {
+        "age": 100085179
+      },
+      "content": {
+        "body": "Even if I don't convert many, building awareness and familiarity is important too",
+        "msgtype": "m.text",
+        "formatted_body": "Even if I don&#39;t convert many, building awareness and familiarity is important too",
+        "format": "org.matrix.custom.html"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@kulps:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463989556578,
+      "sender": "@turt2live:matrix.org",
+      "event_id": "$1463989556496518GJwPJ:matrix.org",
+      "age": 100084282,
+      "unsigned": {
+        "age": 100084282
+      },
+      "content": {
+        "body": "I think kulps (@kulps:matrix.org) has had a lot more success than I",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@turt2live:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463989556994,
+      "sender": "@wint3r:matrix.org",
+      "event_id": "$1463989556496520RlPeM:matrix.org",
+      "age": 100083866,
+      "unsigned": {
+        "age": 100083866
+      },
+      "content": {
+        "body": "Touché",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@wint3r:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463989558282,
+      "sender": "@kulps:matrix.org",
+      "event_id": "$1463989558496521UYyNE:matrix.org",
+      "age": 100082578,
+      "unsigned": {
+        "age": 100082578
+      },
+      "content": {
+        "body": "Not yet, I'm going to be doing a bigger push this week, I hope",
+        "msgtype": "m.text",
+        "formatted_body": "Not yet,  I&#39;m going to be doing a bigger push this week,  I hope",
+        "format": "org.matrix.custom.html"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@kulps:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463989697759,
+      "sender": "@wint3r:matrix.org",
+      "event_id": "$1463989697496660uuqsk:matrix.org",
+      "age": 99943101,
+      "unsigned": {
+        "age": 99943101
+      },
+      "content": {
+        "body": "doublemalt: any specific reason why you don't use ownCloud?",
+        "msgtype": "m.text",
+        "formatted_body": "doublemalt: any specific reason why you don&#39;t use ownCloud?",
+        "format": "org.matrix.custom.html"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@wint3r:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463989730103,
+      "sender": "@wint3r:matrix.org",
+      "event_id": "$1463989730496698MfXLg:matrix.org",
+      "age": 99910757,
+      "unsigned": {
+        "age": 99910757
+      },
+      "content": {
+        "body": "doublemalt: if you don't mind my asking. :)",
+        "msgtype": "m.text",
+        "formatted_body": "doublemalt: if you don&#39;t mind my asking. :)",
+        "format": "org.matrix.custom.html"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@wint3r:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463989745676,
+      "sender": "@kulps:matrix.org",
+      "event_id": "$1463989745496715Vfspc:matrix.org",
+      "age": 99895184,
+      "unsigned": {
+        "age": 99895184
+      },
+      "content": {
+        "body": "Clear text passwords in the log when using ldap is a good one...",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@kulps:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463989786189,
+      "sender": "@doublemalt:cloudfleet.io",
+      "event_id": "$146398978658SYOkw:cloudfleet.io",
+      "age": 99854671,
+      "unsigned": {
+        "age": 99854671
+      },
+      "content": {
+        "body": "no problem. It is really hard to set up non interactively.",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@doublemalt:cloudfleet.io",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463989804518,
+      "sender": "@doublemalt:cloudfleet.io",
+      "event_id": "$146398980459IoHWu:cloudfleet.io",
+      "age": 99836342,
+      "unsigned": {
+        "age": 99836342
+      },
+      "content": {
+        "body": "kulps: oops ... will submit a pull request stat",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@doublemalt:cloudfleet.io",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463989899638,
+      "sender": "@doublemalt:cloudfleet.io",
+      "event_id": "$146398989960krCSW:cloudfleet.io",
+      "age": 99741222,
+      "unsigned": {
+        "age": 99741222
+      },
+      "content": {
+        "body": "Winter: \n- It is really hard to set up non interactively.\n- It's focus is too much on big installations \n- It's php\n\nBut mostly it's the noninteractive setup that is missing",
+        "msgtype": "m.text",
+        "formatted_body": "Winter: </p>\n<ul>\n<li>It is really hard to set up non interactively.</li>\n<li>It&#39;s focus is too much on big installations </li>\n<li>It&#39;s php</li>\n</ul>\n<p>But mostly it&#39;s the noninteractive setup that is missing",
+        "format": "org.matrix.custom.html"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@doublemalt:cloudfleet.io",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463989972092,
+      "sender": "@Half-Shot:half-shot.uk",
+      "event_id": "$14639899722785MrenN:half-shot.uk",
+      "age": 99668768,
+      "unsigned": {
+        "age": 99668768
+      },
+      "content": {
+        "body": "I use owncloud, and I agree with everything there :/",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@Half-Shot:half-shot.uk",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463990126898,
+      "sender": "@kulps:matrix.org",
+      "event_id": "$1463990126497124fbWPD:matrix.org",
+      "age": 99513962,
+      "unsigned": {
+        "age": 99513962
+      },
+      "content": {
+        "body": "doublemalt: no, sorry. That's a reason not to use own cloud",
+        "msgtype": "m.text",
+        "formatted_body": "doublemalt: no,  sorry.  That&#39;s a reason not to use own cloud",
+        "format": "org.matrix.custom.html"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@kulps:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463990169640,
+      "sender": "@doublemalt:cloudfleet.io",
+      "event_id": "$146399016961PAkpZ:cloudfleet.io",
+      "age": 99471220,
+      "unsigned": {
+        "age": 99471220
+      },
+      "content": {
+        "body": "kulps: oh ... I didn't know that ... ",
+        "msgtype": "m.text",
+        "formatted_body": "kulps: oh ... I didn&#39;t know that ... ",
+        "format": "org.matrix.custom.html"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@doublemalt:cloudfleet.io",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463990177142,
+      "sender": "@doublemalt:cloudfleet.io",
+      "event_id": "$146399017762LFUhY:cloudfleet.io",
+      "age": 99463718,
+      "unsigned": {
+        "age": 99463718
+      },
+      "content": {
+        "body": "another good reason",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@doublemalt:cloudfleet.io",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463990204301,
+      "sender": "@doublemalt:cloudfleet.io",
+      "event_id": "$146399020463ySvhe:cloudfleet.io",
+      "age": 99436559,
+      "unsigned": {
+        "age": 99436559
+      },
+      "content": {
+        "body": "I hope I removed all debug code from my LDAP integration ;)",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@doublemalt:cloudfleet.io",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463990206542,
+      "sender": "@kulps:matrix.org",
+      "event_id": "$1463990206497191Nklqd:matrix.org",
+      "age": 99434318,
+      "unsigned": {
+        "age": 99434318
+      },
+      "content": {
+        "body": "We have an instance at work and while log checking one day it was noticed that all logins were clearly visible. I don't know if the setup was bad or if somebody else had enabled aggressive logging but it's not my favourite feature of own cloud",
+        "msgtype": "m.text",
+        "formatted_body": "We have an instance at work and while log checking one day it was noticed that all logins were clearly visible.  I don&#39;t know if the setup was bad or if somebody else had enabled aggressive logging but it&#39;s not my favourite feature of own cloud",
+        "format": "org.matrix.custom.html"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@kulps:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463990246661,
+      "sender": "@kulps:matrix.org",
+      "event_id": "$1463990246497223MQKNh:matrix.org",
+      "age": 99394199,
+      "unsigned": {
+        "age": 99394199
+      },
+      "content": {
+        "body": "It's not my project at work but it is my problem, I'd creds are in the clear",
+        "msgtype": "m.text",
+        "formatted_body": "It&#39;s not my project at work but it is my problem,  I&#39;d creds are in the clear",
+        "format": "org.matrix.custom.html"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@kulps:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463990327225,
+      "sender": "@yaniel:kolm.io",
+      "event_id": "$146399032765DPXJC:kolm.io",
+      "age": 99313635,
+      "unsigned": {
+        "age": 99313635
+      },
+      "content": {
+        "body": "hey that's a neat feature",
+        "msgtype": "m.text",
+        "formatted_body": "hey that&#39;s a neat feature",
+        "format": "org.matrix.custom.html"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@yaniel:kolm.io",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463990350667,
+      "sender": "@yaniel:kolm.io",
+      "event_id": "$146399035066TyhaO:kolm.io",
+      "age": 99290193,
+      "unsigned": {
+        "age": 99290193
+      },
+      "content": {
+        "body": "wonders if it's now possible to sell matrix to admins at his former highschool",
+        "msgtype": "m.emote",
+        "formatted_body": "wonders if it&#39;s now possible to sell matrix to admins at his former highschool",
+        "format": "org.matrix.custom.html"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@yaniel:kolm.io",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463993981422,
+      "sender": "@matthew:matrix.org",
+      "event_id": "$1463993981500989zYaAd:matrix.org",
+      "age": 95659438,
+      "unsigned": {
+        "age": 95659438
+      },
+      "content": {
+        "body": " /beta uses dots, /develop uses numbers",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@matthew:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463993983848,
+      "sender": "@matthew:matrix.org",
+      "event_id": "$1463993983500992koOhK:matrix.org",
+      "age": 95657012,
+      "unsigned": {
+        "age": 95657012
+      },
+      "content": {
+        "body": "the number says the number of missed notifs",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@matthew:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463993990165,
+      "sender": "@matthew:matrix.org",
+      "event_id": "$1463993990500993zpJXV:matrix.org",
+      "age": 95650695,
+      "unsigned": {
+        "age": 95650695
+      },
+      "content": {
+        "body": "use /develop where it is simplified and consistent and fixed",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@matthew:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463994063558,
+      "sender": "@levsha:matrix.org",
+      "event_id": "$1463994063501091JSnHU:matrix.org",
+      "age": 95577302,
+      "unsigned": {
+        "age": 95577302
+      },
+      "content": {
+        "body": "I use /beta . Sometime I see dot simultaneously with bold name of the room, sometime bold room name only ...",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@levsha:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463994088681,
+      "sender": "@intelfx:intelfx.name",
+      "event_id": "$146399408866TMDYa:intelfx.name",
+      "age": 95552179,
+      "unsigned": {
+        "age": 95552179
+      },
+      "content": {
+        "body": "Matthew: I use /develop, and the number sometimes does not appear",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@intelfx:intelfx.name",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463994114280,
+      "sender": "@intelfx:intelfx.name",
+      "event_id": "$146399411467PIDKB:intelfx.name",
+      "age": 95526580,
+      "unsigned": {
+        "age": 95526580
+      },
+      "content": {
+        "body": "but thanks for the explanation",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@intelfx:intelfx.name",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463994132412,
+      "sender": "@levsha:matrix.org",
+      "event_id": "$1463994132501198dSJjR:matrix.org",
+      "age": 95508448,
+      "unsigned": {
+        "age": 95508448
+      },
+      "content": {
+        "body": "Right now this room was bold only, but #android was bold and with dot",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@levsha:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463994180027,
+      "sender": "@intelfx:intelfx.name",
+      "event_id": "$146399418069BVJZp:intelfx.name",
+      "age": 95460833,
+      "unsigned": {
+        "age": 95460833
+      },
+      "content": {
+        "body": "levsha: it means that you have disabled notifications for this room",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@intelfx:intelfx.name",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463994203726,
+      "sender": "@intelfx:intelfx.name",
+      "event_id": "$146399420374JnFYA:intelfx.name",
+      "age": 95437134,
+      "unsigned": {
+        "age": 95437134
+      },
+      "content": {
+        "body": "ah, right",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@intelfx:intelfx.name",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463994207419,
+      "sender": "@intelfx:intelfx.name",
+      "event_id": "$146399420776vkqke:intelfx.name",
+      "age": 95433441,
+      "unsigned": {
+        "age": 95433441
+      },
+      "content": {
+        "body": "it is consistent",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@intelfx:intelfx.name",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463994223670,
+      "sender": "@levsha:matrix.org",
+      "event_id": "$1463994223501338KTncb:matrix.org",
+      "age": 95417190,
+      "unsigned": {
+        "age": 95417190
+      },
+      "content": {
+        "body": "Ivan Shapovalov (@intelfx:intelfx.name): And now this room was red bold AND with dot",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@levsha:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463994232114,
+      "sender": "@intelfx:intelfx.name",
+      "event_id": "$146399423277TXfxq:intelfx.name",
+      "age": 95408746,
+      "unsigned": {
+        "age": 95408746
+      },
+      "content": {
+        "body": "I have in fact disabled notifications in every room which seems to miss the numbers for me",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@intelfx:intelfx.name",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463994255660,
+      "sender": "@intelfx:intelfx.name",
+      "event_id": "$146399425579CKWuN:intelfx.name",
+      "age": 95385200,
+      "unsigned": {
+        "age": 95385200
+      },
+      "content": {
+        "body": "correct",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@intelfx:intelfx.name",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463994281663,
+      "sender": "@intelfx:intelfx.name",
+      "event_id": "$146399428183MaRoi:intelfx.name",
+      "age": 95359197,
+      "unsigned": {
+        "age": 95359197
+      },
+      "content": {
+        "body": "it means that you did not disable personal notifications for this room (when somebody mentions you), only general notifications",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@intelfx:intelfx.name",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463994330752,
+      "sender": "@levsha:matrix.org",
+      "event_id": "$1463994330501491szJpo:matrix.org",
+      "age": 95310108,
+      "unsigned": {
+        "age": 95310108
+      },
+      "content": {
+        "body": "so dot shows me the room that sent me notification. That makes sense now",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@levsha:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463994396329,
+      "sender": "@matthew:matrix.org",
+      "event_id": "$1463994396501595Jyqxp:matrix.org",
+      "age": 95244531,
+      "unsigned": {
+        "age": 95244531
+      },
+      "content": {
+        "body": "dots have been removed, so please ignore them.",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@matthew:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463994424164,
+      "sender": "@intelfx:intelfx.name",
+      "event_id": "$146399442497CeBIC:intelfx.name",
+      "age": 95216696,
+      "unsigned": {
+        "age": 95216696
+      },
+      "content": {
+        "body": "Matthew: thanks for explanations",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@intelfx:intelfx.name",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463994433075,
+      "sender": "@matthew:matrix.org",
+      "event_id": "$1463994433501663yhQNx:matrix.org",
+      "age": 95207785,
+      "unsigned": {
+        "age": 95207785
+      },
+      "content": {
+        "body": "basically: bold = unread messages of any kind. badge = number of missed notifications. red badge = number of missed notifs, of which one or more is an explicit highlight",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@matthew:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463994441626,
+      "sender": "@matthew:matrix.org",
+      "event_id": "$1463994441501674ztjkW:matrix.org",
+      "age": 95199234,
+      "unsigned": {
+        "age": 95199234
+      },
+      "content": {
+        "body": "on /develop they should be better in sync than on /beta, but not perfect",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@matthew:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1463994462173,
+      "sender": "@matthew:matrix.org",
+      "event_id": "$1463994462501701yNeWh:matrix.org",
+      "age": 95178687,
+      "unsigned": {
+        "age": 95178687
+      },
+      "content": {
+        "body": "and we will release /develop shortly.",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@matthew:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "prev_content": {
+        "membership": "join",
+        "avatar_url": null,
+        "displayname": "merriment"
+      },
+      "origin_server_ts": 1463998463800,
+      "sender": "@merriment:matrix.org",
+      "event_id": "$1463998463506715BgnCA:matrix.org",
+      "age": 91177060,
+      "unsigned": {
+        "prev_content": {
+          "membership": "join",
+          "avatar_url": null,
+          "displayname": "merriment"
+        },
+        "prev_sender": "@merriment:matrix.org",
+        "replaces_state": "$1463412209671757vDVHL:matrix.org",
+        "age": 91177060
+      },
+      "state_key": "@merriment:matrix.org",
+      "content": {
+        "membership": "join",
+        "avatar_url": "mxc://matrix.org/wqhDLARyZMEkTHJsCgezVjBZ",
+        "displayname": "merriment"
+      },
+      "membership": "join",
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@merriment:matrix.org",
+      "replaces_state": "$1463412209671757vDVHL:matrix.org",
+      "type": "m.room.member"
+    },
+    {
+      "origin_server_ts": 1464004579992,
+      "sender": "@yaniel:kolm.io",
+      "event_id": "$1464004579123dEPQH:kolm.io",
+      "age": 85060868,
+      "unsigned": {
+        "age": 85060868
+      },
+      "content": {
+        "body": "would it be possible for application services to expose user settings in the vector settings view?",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@yaniel:kolm.io",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1464006590623,
+      "sender": "@matthew:matrix.org",
+      "event_id": "$1464006590517193XCKBg:matrix.org",
+      "age": 83050237,
+      "unsigned": {
+        "age": 83050237
+      },
+      "content": {
+        "body": "we're working on it atm as part of the AS-hosting service we're building as part of Vector",
+        "msgtype": "m.text",
+        "formatted_body": "we&#39;re working on it atm as part of the AS-hosting service we&#39;re building as part of Vector",
+        "format": "org.matrix.custom.html"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@matthew:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1464006632166,
+      "sender": "@matthew:matrix.org",
+      "event_id": "$1464006632517248aOSge:matrix.org",
+      "age": 83008694,
+      "unsigned": {
+        "age": 83008694
+      },
+      "content": {
+        "body": "although the way it does it to chuck an <iframe/> into the vector settings view",
+        "msgtype": "m.text",
+        "formatted_body": "although the way it does it to chuck an &lt;iframe/&gt; into the vector settings view",
+        "format": "org.matrix.custom.html"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@matthew:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1464006666566,
+      "sender": "@matthew:matrix.org",
+      "event_id": "$1464006666517300ntXLs:matrix.org",
+      "age": 82974294,
+      "unsigned": {
+        "age": 82974294
+      },
+      "content": {
+        "body": "as the AS management interface is part of the hosting platform rather than the vector app itself.",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@matthew:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1464009831417,
+      "sender": "@go:matrix.org",
+      "event_id": "$1464009831522323Ktxxu:matrix.org",
+      "age": 79809443,
+      "unsigned": {
+        "age": 79809443
+      },
+      "state_key": "@go:matrix.org",
+      "content": {
+        "membership": "join",
+        "avatar_url": null,
+        "displayname": null
+      },
+      "membership": "join",
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@go:matrix.org",
+      "type": "m.room.member"
+    },
+    {
+      "origin_server_ts": 1464009908397,
+      "sender": "@wirseefahrer:matrix.org",
+      "event_id": "$1464009908522459CSEcM:matrix.org",
+      "age": 79732463,
+      "unsigned": {
+        "age": 79732463
+      },
+      "state_key": "@wirseefahrer:matrix.org",
+      "content": {
+        "membership": "join",
+        "avatar_url": "mxc://matrix.org/cWLrVxWAltQEMxAFoPVLGxYR",
+        "displayname": "wirseefahrer"
+      },
+      "membership": "join",
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@wirseefahrer:matrix.org",
+      "type": "m.room.member"
+    },
+    {
+      "origin_server_ts": 1464010861442,
+      "sender": "@9759:matrix.org",
+      "event_id": "$1464010861524016TWLqT:matrix.org",
+      "age": 78779418,
+      "unsigned": {
+        "age": 78779418
+      },
+      "state_key": "@9759:matrix.org",
+      "content": {
+        "kind": "guest",
+        "avatar_url": null,
+        "displayname": "Guest 9759",
+        "membership": "join"
+      },
+      "membership": "join",
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@9759:matrix.org",
+      "type": "m.room.member"
+    },
+    {
+      "prev_content": {
+        "membership": "join",
+        "avatar_url": "https://matrix.org/_matrix/content/QHJzc2JvdDptYXRyaXgub3JnueWbomOrjSEvifEodcKSRcQN.aW1hZ2UvcG5n.png",
+        "displayname": "RSS Bot"
+      },
+      "origin_server_ts": 1464023509337,
+      "sender": "@rssbot:matrix.org",
+      "event_id": "$1464023509547032rqTyF:matrix.org",
+      "age": 66131523,
+      "unsigned": {
+        "prev_content": {
+          "membership": "join",
+          "avatar_url": "https://matrix.org/_matrix/content/QHJzc2JvdDptYXRyaXgub3JnueWbomOrjSEvifEodcKSRcQN.aW1hZ2UvcG5n.png",
+          "displayname": "RSS Bot"
+        },
+        "prev_sender": "@rssbot:matrix.org",
+        "replaces_state": "$1461606109329513FfLhv:matrix.org",
+        "age": 66131523
+      },
+      "state_key": "@rssbot:matrix.org",
+      "content": {
+        "membership": "join",
+        "avatar_url": "https://matrix.org/_matrix/content/QHJzc2JvdDptYXRyaXgub3JnueWbomOrjSEvifEodcKSRcQN.aW1hZ2UvcG5n.png",
+        "displayname": "RSS Bot"
+      },
+      "membership": "join",
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@rssbot:matrix.org",
+      "replaces_state": "$1461606109329513FfLhv:matrix.org",
+      "type": "m.room.member"
+    },
+    {
+      "origin_server_ts": 1464023510785,
+      "sender": "@rssbot:matrix.org",
+      "event_id": "$1464023510547034Mvcyc:matrix.org",
+      "age": 66130075,
+      "unsigned": {
+        "age": 66130075
+      },
+      "content": {
+        "body": "Matrix.org posted a new article: Kamailio World 2016 ( https://matrix.org/blog/2016/05/23/kamailio-world-2016/ )",
+        "msgtype": "m.notice",
+        "formatted_body": "<i>Matrix.org</i> posted a new article: Kamailio World 2016 <font color=\"#7F7F7F\">( https://matrix.org/blog/2016/05/23/kamailio-world-2016/ )</font>",
+        "format": "org.matrix.custom.html"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@rssbot:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1464038083663,
+      "sender": "@foofighter:matrix.org",
+      "event_id": "$1464038083575496esJIV:matrix.org",
+      "age": 51557197,
+      "unsigned": {
+        "age": 51557197
+      },
+      "state_key": "@foofighter:matrix.org",
+      "content": {
+        "membership": "join",
+        "avatar_url": null,
+        "displayname": null
+      },
+      "membership": "join",
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@foofighter:matrix.org",
+      "type": "m.room.member"
+    },
+    {
+      "prev_content": {
+        "membership": "join",
+        "avatar_url": null,
+        "displayname": null
+      },
+      "origin_server_ts": 1464038128618,
+      "sender": "@foofighter:matrix.org",
+      "event_id": "$1464038128575621ffoky:matrix.org",
+      "age": 51512242,
+      "unsigned": {
+        "prev_content": {
+          "membership": "join",
+          "avatar_url": null,
+          "displayname": null
+        },
+        "prev_sender": "@foofighter:matrix.org",
+        "replaces_state": "$1464038083575496esJIV:matrix.org",
+        "age": 51512242
+      },
+      "state_key": "@foofighter:matrix.org",
+      "content": {
+        "membership": "leave"
+      },
+      "membership": "leave",
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@foofighter:matrix.org",
+      "replaces_state": "$1464038083575496esJIV:matrix.org",
+      "type": "m.room.member"
+    },
+    {
+      "prev_content": {
+        "membership": "join",
+        "avatar_url": null,
+        "displayname": null
+      },
+      "origin_server_ts": 1464042541096,
+      "sender": "@go:matrix.org",
+      "event_id": "$1464042541583408Txyks:matrix.org",
+      "age": 47099764,
+      "unsigned": {
+        "prev_content": {
+          "membership": "join",
+          "avatar_url": null,
+          "displayname": null
+        },
+        "prev_sender": "@go:matrix.org",
+        "replaces_state": "$1464009831522323Ktxxu:matrix.org",
+        "age": 47099764
+      },
+      "state_key": "@go:matrix.org",
+      "content": {
+        "membership": "leave"
+      },
+      "membership": "leave",
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@go:matrix.org",
+      "replaces_state": "$1464009831522323Ktxxu:matrix.org",
+      "type": "m.room.member"
+    },
+    {
+      "origin_server_ts": 1464060333342,
+      "sender": "@fractal:matrix.org",
+      "event_id": "$1464060333602043SLMup:matrix.org",
+      "age": 29307518,
+      "unsigned": {
+        "age": 29307518
+      },
+      "content": {
+        "body": ":(",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@fractal:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "prev_content": {
+        "membership": "join",
+        "avatar_url": null,
+        "displayname": null
+      },
+      "origin_server_ts": 1464066682770,
+      "sender": "@themk:matrix.org",
+      "event_id": "$1464066682607008zIdIs:matrix.org",
+      "age": 22958090,
+      "unsigned": {
+        "prev_content": {
+          "membership": "join",
+          "avatar_url": null,
+          "displayname": null
+        },
+        "prev_sender": "@themk:matrix.org",
+        "replaces_state": "$1463300476550805llqbg:matrix.org",
+        "age": 22958090
+      },
+      "state_key": "@themk:matrix.org",
+      "content": {
+        "membership": "join",
+        "avatar_url": null,
+        "displayname": null
+      },
+      "membership": "join",
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@themk:matrix.org",
+      "replaces_state": "$1463300476550805llqbg:matrix.org",
+      "type": "m.room.member"
+    },
+    {
+      "origin_server_ts": 1464075030751,
+      "sender": "@wint3r:matrix.org",
+      "event_id": "$1464075030615053bWQlW:matrix.org",
+      "age": 14610109,
+      "unsigned": {
+        "age": 14610109
+      },
+      "content": {
+        "body": "Why isn't Vector on F-droid? But tensor is?",
+        "msgtype": "m.text",
+        "formatted_body": "Why isn&#39;t Vector on F-droid? But tensor is?",
+        "format": "org.matrix.custom.html"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@wint3r:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1464078460527,
+      "sender": "@Half-Shot:half-shot.uk",
+      "event_id": "$14640784603406ohRjN:half-shot.uk",
+      "age": 11180333,
+      "unsigned": {
+        "age": 11180333
+      },
+      "content": {
+        "body": "Well Tensor is written and maintained by davidar so he doesn't follow the same release system.",
+        "msgtype": "m.text",
+        "formatted_body": "Well Tensor is written and maintained by davidar so he doesn&#39;t follow the same release system.",
+        "format": "org.matrix.custom.html"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@Half-Shot:half-shot.uk",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1464078489357,
+      "sender": "@Half-Shot:half-shot.uk",
+      "event_id": "$14640784893407LJmNz:half-shot.uk",
+      "age": 11151503,
+      "unsigned": {
+        "age": 11151503
+      },
+      "content": {
+        "body": "I agree it would be nice to submit Vector though, saves me having to install apks every few days.",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@Half-Shot:half-shot.uk",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1464078564572,
+      "sender": "@davidar:matrix.org",
+      "event_id": "$1464078564618549fSMvD:matrix.org",
+      "age": 11076288,
+      "unsigned": {
+        "age": 11076288
+      },
+      "content": {
+        "body": ":)",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@davidar:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1464078641127,
+      "sender": "@trilobite17:matrix.org",
+      "event_id": "$1464078641618619haOmg:matrix.org",
+      "age": 10999733,
+      "unsigned": {
+        "age": 10999733
+      },
+      "content": {
+        "body": "Is apks on github if you want to build it from source?",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@trilobite17:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1464078778985,
+      "sender": "@erikj:jki.re",
+      "event_id": "$1464078778516wDuxa:jki.re",
+      "age": 10861875,
+      "unsigned": {
+        "age": 10861875
+      },
+      "content": {
+        "body": "I think vector uses GCM, which we'd need to disable before we could post to f-droid?",
+        "msgtype": "m.text",
+        "formatted_body": "I think vector uses GCM, which we&#39;d need to disable before we could post to f-droid?",
+        "format": "org.matrix.custom.html"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@erikj:jki.re",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1464078840659,
+      "sender": "@wint3r:matrix.org",
+      "event_id": "$1464078840618897Qojnf:matrix.org",
+      "age": 10800201,
+      "unsigned": {
+        "age": 10800201
+      },
+      "content": {
+        "body": "Erik: I don't quite follow you..",
+        "msgtype": "m.text",
+        "formatted_body": "Erik: I don&#39;t quite follow you..",
+        "format": "org.matrix.custom.html"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@wint3r:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1464078857433,
+      "sender": "@wint3r:matrix.org",
+      "event_id": "$1464078857618927vpJgl:matrix.org",
+      "age": 10783427,
+      "unsigned": {
+        "age": 10783427
+      },
+      "content": {
+        "body": "Half-Shot: exactly my point",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@wint3r:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1464078905410,
+      "sender": "@Half-Shot:half-shot.uk",
+      "event_id": "$14640789053413jhmej:half-shot.uk",
+      "age": 10735450,
+      "unsigned": {
+        "age": 10735450
+      },
+      "content": {
+        "body": "Vector is meant to fallback to tried and true /sync, buuuut in my experience it sucks",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@Half-Shot:half-shot.uk",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1464078928087,
+      "sender": "@Half-Shot:half-shot.uk",
+      "event_id": "$14640789283414DWgMY:half-shot.uk",
+      "age": 10712773,
+      "unsigned": {
+        "age": 10712773
+      },
+      "content": {
+        "body": "Of course, you still have to disable it because freedoms.",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@Half-Shot:half-shot.uk",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1464078939108,
+      "sender": "@erikj:jki.re",
+      "event_id": "$1464078939519qJnKj:jki.re",
+      "age": 10701752,
+      "unsigned": {
+        "age": 10701752
+      },
+      "content": {
+        "body": "winter: As in, it actually would require us to change some things code wise before we could support f-droid",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@erikj:jki.re",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1464078980421,
+      "sender": "@wint3r:matrix.org",
+      "event_id": "$1464078980619095eZIqq:matrix.org",
+      "age": 10660439,
+      "unsigned": {
+        "age": 10660439
+      },
+      "content": {
+        "body": "Okay. That understood.",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@wint3r:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1464079015008,
+      "sender": "@wint3r:matrix.org",
+      "event_id": "$1464079015619151PedJd:matrix.org",
+      "age": 10625852,
+      "unsigned": {
+        "age": 10625852
+      },
+      "content": {
+        "body": "It's not really a problem though.",
+        "msgtype": "m.text",
+        "formatted_body": "It&#39;s not really a problem though.",
+        "format": "org.matrix.custom.html"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@wint3r:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1464079038728,
+      "sender": "@Half-Shot:half-shot.uk",
+      "event_id": "$14640790383415ctcfX:half-shot.uk",
+      "age": 10602132,
+      "unsigned": {
+        "age": 10602132
+      },
+      "content": {
+        "body": "Now, I think I mentioned before a fork sounds like a better idea to me",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@Half-Shot:half-shot.uk",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1464079045089,
+      "sender": "@erikj:jki.re",
+      "event_id": "$1464079045522bVwnB:jki.re",
+      "age": 10595771,
+      "unsigned": {
+        "age": 10595771
+      },
+      "content": {
+        "body": "Its annoying tho",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@erikj:jki.re",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1464079053192,
+      "sender": "@Half-Shot:half-shot.uk",
+      "event_id": "$14640790533416CqOFa:half-shot.uk",
+      "age": 10587668,
+      "unsigned": {
+        "age": 10587668
+      },
+      "content": {
+        "body": "With frequent merges",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@Half-Shot:half-shot.uk",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1464079104566,
+      "sender": "@Half-Shot:half-shot.uk",
+      "event_id": "$14640791043417VKEyO:half-shot.uk",
+      "age": 10536294,
+      "unsigned": {
+        "age": 10536294
+      },
+      "content": {
+        "body": "Someones gotta maintain it :/",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@Half-Shot:half-shot.uk",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1464079194928,
+      "sender": "@Half-Shot:half-shot.uk",
+      "event_id": "$14640791943419QOuSA:half-shot.uk",
+      "age": 10445932,
+      "unsigned": {
+        "age": 10445932
+      },
+      "content": {
+        "body": "Heh, spotted a bug.",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@Half-Shot:half-shot.uk",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1464079205350,
+      "sender": "@Half-Shot:half-shot.uk",
+      "event_id": "$14640792053420sgBKI:half-shot.uk",
+      "age": 10435510,
+      "unsigned": {
+        "age": 10435510
+      },
+      "content": {
+        "body": "Screenshot_20160524-093844.png",
+        "info": {
+          "mimetype": "image/png",
+          "h": 1920,
+          "orientation": 0,
+          "w": 1080,
+          "size": 200490
+        },
+        "msgtype": "m.image",
+        "url": "mxc://half-shot.uk/jWQWGTOvVFlfYiKjBcvwnHwO"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@Half-Shot:half-shot.uk",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1464079232346,
+      "sender": "@Half-Shot:half-shot.uk",
+      "event_id": "$14640792323421MWRXq:half-shot.uk",
+      "age": 10408514,
+      "unsigned": {
+        "age": 10408514
+      },
+      "content": {
+        "body": "Wait. Nvm",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@Half-Shot:half-shot.uk",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1464079237920,
+      "sender": "@Half-Shot:half-shot.uk",
+      "event_id": "$14640792373422XpwEw:half-shot.uk",
+      "age": 10402940,
+      "unsigned": {
+        "age": 10402940
+      },
+      "content": {
+        "body": "That does make sense",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@Half-Shot:half-shot.uk",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1464079280085,
+      "sender": "@trilobite17:matrix.org",
+      "event_id": "$1464079280619593ZJqFT:matrix.org",
+      "age": 10360775,
+      "unsigned": {
+        "age": 10360775
+      },
+      "content": {
+        "body": "No! They are out of order!",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@trilobite17:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1464079320758,
+      "sender": "@wint3r:matrix.org",
+      "event_id": "$1464079320619643WeKPk:matrix.org",
+      "age": 10320102,
+      "unsigned": {
+        "age": 10320102
+      },
+      "content": {
+        "body": "Out of order.. probably network issues?",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@wint3r:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1464079345444,
+      "sender": "@Half-Shot:half-shot.uk",
+      "event_id": "$14640793453426nqzup:half-shot.uk",
+      "age": 10295416,
+      "unsigned": {
+        "age": 10295416
+      },
+      "content": {
+        "body": "Probably how it merged",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@Half-Shot:half-shot.uk",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1464079356469,
+      "sender": "@wint3r:matrix.org",
+      "event_id": "$1464079356619682JRZsF:matrix.org",
+      "age": 10284391,
+      "unsigned": {
+        "age": 10284391
+      },
+      "content": {
+        "body": "Plus the messages take some time to appear in the room..",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@wint3r:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1464079422810,
+      "sender": "@trilobite17:matrix.org",
+      "event_id": "$1464079422619779lomsm:matrix.org",
+      "age": 10218050,
+      "unsigned": {
+        "age": 10218050
+      },
+      "content": {
+        "body": "I saw \"With frequent merges\" after \"Its annoying tho\".",
+        "msgtype": "m.text",
+        "formatted_body": "I saw &quot;With frequent merges&quot; after &quot;Its annoying tho&quot;.",
+        "format": "org.matrix.custom.html"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@trilobite17:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "prev_content": {
+        "membership": "join",
+        "avatar_url": "mxc://matrix.org/XcoBYiEebcHikyXHjagpCRJv",
+        "displayname": "davidar"
+      },
+      "origin_server_ts": 1464079469934,
+      "sender": "@davidar:matrix.org",
+      "event_id": "$1464079469619822rgQtt:matrix.org",
+      "age": 10170926,
+      "unsigned": {
+        "prev_content": {
+          "membership": "join",
+          "avatar_url": "mxc://matrix.org/XcoBYiEebcHikyXHjagpCRJv",
+          "displayname": "davidar"
+        },
+        "prev_sender": "@davidar:matrix.org",
+        "replaces_state": "$145622050733571qFgpC:matrix.org",
+        "age": 10170926
+      },
+      "state_key": "@davidar:matrix.org",
+      "content": {
+        "membership": "join",
+        "avatar_url": "mxc://matrix.org/XcoBYiEebcHikyXHjagpCRJv",
+        "displayname": "davidar"
+      },
+      "membership": "join",
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@davidar:matrix.org",
+      "replaces_state": "$145622050733571qFgpC:matrix.org",
+      "type": "m.room.member"
+    },
+    {
+      "origin_server_ts": 1464079578277,
+      "sender": "@Half-Shot:half-shot.uk",
+      "event_id": "$14640795783427nlPFh:half-shot.uk",
+      "age": 10062583,
+      "unsigned": {
+        "age": 10062583
+      },
+      "content": {
+        "body": "Yeah, just how the federation goes. My server isn't nearly as quick either.",
+        "msgtype": "m.text",
+        "formatted_body": "Yeah, just how the federation goes. My server isn&#39;t nearly as quick either.",
+        "format": "org.matrix.custom.html"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@Half-Shot:half-shot.uk",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1464079601013,
+      "sender": "@9832:matrix.org",
+      "event_id": "$1464079601619988slaHn:matrix.org",
+      "age": 10039847,
+      "unsigned": {
+        "age": 10039847
+      },
+      "state_key": "@9832:matrix.org",
+      "content": {
+        "kind": "guest",
+        "avatar_url": null,
+        "displayname": "david",
+        "membership": "join"
+      },
+      "membership": "join",
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@9832:matrix.org",
+      "type": "m.room.member"
+    },
+    {
+      "origin_server_ts": 1464079642493,
+      "sender": "@trilobite17:matrix.org",
+      "event_id": "$1464079642620029RBwHI:matrix.org",
+      "age": 9998367,
+      "unsigned": {
+        "age": 9998367
+      },
+      "content": {
+        "body": "Less than two hundred guests to go before we run into the G10K problem.",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@trilobite17:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1464079679575,
+      "sender": "@Half-Shot:half-shot.uk",
+      "event_id": "$14640796793429HwuiD:half-shot.uk",
+      "age": 9961285,
+      "unsigned": {
+        "age": 9961285
+      },
+      "content": {
+        "body": "Oh no!",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@Half-Shot:half-shot.uk",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1464079822566,
+      "sender": "@wint3r:matrix.org",
+      "event_id": "$1464079822620259CHZjB:matrix.org",
+      "age": 9818294,
+      "unsigned": {
+        "age": 9818294
+      },
+      "content": {
+        "body": "G10K means? Server at its capacity?",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@wint3r:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1464079832441,
+      "sender": "@trilobite17:matrix.org",
+      "event_id": "$1464079832620271CfFhY:matrix.org",
+      "age": 9808419,
+      "unsigned": {
+        "age": 9808419
+      },
+      "content": {
+        "body": "synapse crashes around the world, dogs and cats living together,, mass hysteria!",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@trilobite17:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1464079841573,
+      "sender": "@davidar:matrix.org",
+      "event_id": "$1464079841620278fQaYL:matrix.org",
+      "age": 9799287,
+      "unsigned": {
+        "age": 9799287
+      },
+      "content": {
+        "body": "Ooh",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@davidar:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1464079857109,
+      "sender": "@davidar:matrix.org",
+      "event_id": "$1464079857620305ZvFEe:matrix.org",
+      "age": 9783751,
+      "unsigned": {
+        "age": 9783751
+      },
+      "content": {
+        "body": "starts spamming guest logins",
+        "msgtype": "m.emote"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@davidar:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1464079870417,
+      "sender": "@dave:matrix.org",
+      "event_id": "$1464079870620335rMnUR:matrix.org",
+      "age": 9770443,
+      "unsigned": {
+        "age": 9770443
+      },
+      "content": {
+        "body": "it means trilobite17 is attempting humour :p",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@dave:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1464079895608,
+      "sender": "@wint3r:matrix.org",
+      "event_id": "$1464079895620377SnYXR:matrix.org",
+      "age": 9745252,
+      "unsigned": {
+        "age": 9745252
+      },
+      "content": {
+        "body": "Lol",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@wint3r:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1464079904671,
+      "sender": "@wint3r:matrix.org",
+      "event_id": "$1464079904620385uMBgZ:matrix.org",
+      "age": 9736189,
+      "unsigned": {
+        "age": 9736189
+      },
+      "content": {
+        "body": "Yeah got that",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@wint3r:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1464079920455,
+      "sender": "@trilobite17:matrix.org",
+      "event_id": "$1464079920620411HtMJw:matrix.org",
+      "age": 9720405,
+      "unsigned": {
+        "age": 9720405
+      },
+      "content": {
+        "body": "G10K = the next person (after Guest 9999) who tries to come in as a Guest.",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@trilobite17:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1464079945477,
+      "sender": "@davidar:matrix.org",
+      "event_id": "$1464079945620457hVngr:matrix.org",
+      "age": 9695383,
+      "unsigned": {
+        "age": 9695383
+      },
+      "content": {
+        "body": "Bonus points to whoever registers @10000:matrix.org",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@davidar:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1464079951349,
+      "sender": "@Half-Shot:half-shot.uk",
+      "event_id": "$14640799513433hWPpf:half-shot.uk",
+      "age": 9689511,
+      "unsigned": {
+        "age": 9689511
+      },
+      "content": {
+        "body": "trilobite17, I think I understood a quote from you :D",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@Half-Shot:half-shot.uk",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1464079960894,
+      "sender": "@Half-Shot:half-shot.uk",
+      "event_id": "$14640799603434eJKSh:half-shot.uk",
+      "age": 9679966,
+      "unsigned": {
+        "age": 9679966
+      },
+      "content": {
+        "body": "Things are looking up",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@Half-Shot:half-shot.uk",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1464080096207,
+      "sender": "@trilobite17:matrix.org",
+      "event_id": "$1464080096620639UAxFX:matrix.org",
+      "age": 9544653,
+      "unsigned": {
+        "age": 9544653
+      },
+      "content": {
+        "body": "☜(ﾟヮﾟ☜)",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@trilobite17:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1464080156439,
+      "sender": "@trilobite17:matrix.org",
+      "event_id": "$1464080156620734QQbCU:matrix.org",
+      "age": 9484421,
+      "unsigned": {
+        "age": 9484421
+      },
+      "content": {
+        "body": "p.s. Which quote?",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@trilobite17:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1464080194703,
+      "sender": "@Half-Shot:half-shot.uk",
+      "event_id": "$14640801943435BdfsT:half-shot.uk",
+      "age": 9446157,
+      "unsigned": {
+        "age": 9446157
+      },
+      "content": {
+        "body": "Ghostbusters?",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@Half-Shot:half-shot.uk",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1464080253006,
+      "sender": "@trilobite17:matrix.org",
+      "event_id": "$1464080253620873WlxKO:matrix.org",
+      "age": 9387854,
+      "unsigned": {
+        "age": 9387854
+      },
+      "content": {
+        "body": "Yes!",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@trilobite17:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1464080314984,
+      "sender": "@davidar:matrix.org",
+      "event_id": "$1464080314620965IdsEd:matrix.org",
+      "age": 9325876,
+      "unsigned": {
+        "age": 9325876
+      },
+      "content": {
+        "body": "thought it was the simpsons",
+        "msgtype": "m.emote"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@davidar:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1464080312422,
+      "sender": "@Half-Shot:half-shot.uk",
+      "event_id": "$14640803123438csQDz:half-shot.uk",
+      "age": 9328438,
+      "unsigned": {
+        "age": 9328438
+      },
+      "content": {
+        "body": "\\o/",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@Half-Shot:half-shot.uk",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1464080326136,
+      "sender": "@Half-Shot:half-shot.uk",
+      "event_id": "$14640803263439ePdaq:half-shot.uk",
+      "age": 9314724,
+      "unsigned": {
+        "age": 9314724
+      },
+      "content": {
+        "body": "I'm culturally malnourished, sometimes I get it right",
+        "msgtype": "m.text",
+        "formatted_body": "I&#39;m culturally malnourished, sometimes I get it right",
+        "format": "org.matrix.custom.html"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@Half-Shot:half-shot.uk",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1464080416567,
+      "sender": "@trilobite17:matrix.org",
+      "event_id": "$1464080416621078QebVW:matrix.org",
+      "age": 9224293,
+      "unsigned": {
+        "age": 9224293
+      },
+      "content": {
+        "body": "mubot echo https://67.media.tumblr.com/c21cd83ea070204a95e981d633063e86/tumblr_mgir5yw2x11rvzu9do1_250.gif",
+        "msgtype": "m.text",
+        "formatted_body": "mubot echo <a href=\"https://67.media.tumblr.com/c21cd83ea070204a95e981d633063e86/tumblr_mgir5yw2x11rvzu9do1_250.gif\">https://67.media.tumblr.com/c21cd83ea070204a95e981d633063e86/tumblr_mgir5yw2x11rvzu9do1_250.gif</a>",
+        "format": "org.matrix.custom.html"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@trilobite17:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1464080435905,
+      "sender": "@mubot:matrix.org",
+      "event_id": "$1464080435621106MomJF:matrix.org",
+      "age": 9204955,
+      "unsigned": {
+        "age": 9204955
+      },
+      "content": {
+        "body": "https://67.media.tumblr.com/c21cd83ea070204a95e981d633063e86/tumblr_mgir5yw2x11rvzu9do1_250.gif",
+        "url": "mxc://matrix.org/kqqVnRFnSOcRxNBVMzeWvdFR",
+        "msgtype": "m.image"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@mubot:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1464083287519,
+      "sender": "@yaniel:kolm.io",
+      "event_id": "$1464083287218yrZPT:kolm.io",
+      "age": 6353341,
+      "unsigned": {
+        "age": 6353341
+      },
+      "content": {
+        "body": "how do push notifications work (specifically on iOS) atm?",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@yaniel:kolm.io",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1464083303241,
+      "sender": "@yaniel:kolm.io",
+      "event_id": "$1464083303219WwXOh:kolm.io",
+      "age": 6337619,
+      "unsigned": {
+        "age": 6337619
+      },
+      "content": {
+        "body": "assuming vector ios as the client",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@yaniel:kolm.io",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1464083481617,
+      "sender": "@dave:matrix.org",
+      "event_id": "$1464083481625169AWNtK:matrix.org",
+      "age": 6159243,
+      "unsigned": {
+        "age": 6159243
+      },
+      "content": {
+        "body": "Yaniel: http://matrix.org/docs/spec/push_gateway/unstable.html",
+        "msgtype": "m.text",
+        "formatted_body": "Yaniel: <a href=\"http://matrix.org/docs/spec/push_gateway/unstable.html\">http://matrix.org/docs/spec/push_gateway/unstable.html</a>",
+        "format": "org.matrix.custom.html"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@dave:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1464083581793,
+      "sender": "@skaverat:m.skaverat.net",
+      "event_id": "$14640835815DgAmx:m.skaverat.net",
+      "age": 6059067,
+      "unsigned": {
+        "age": 6059067
+      },
+      "content": {
+        "body": "Anyone of the matrix team at the react europe conference?",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@skaverat:m.skaverat.net",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1464084761368,
+      "sender": "@yaniel:kolm.io",
+      "event_id": "$1464084761220ijRgY:kolm.io",
+      "age": 4879492,
+      "unsigned": {
+        "age": 4879492
+      },
+      "content": {
+        "body": "also, which one of the slack bridges is the de facto one?",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@yaniel:kolm.io",
+      "type": "m.room.message"
+    },
+    {
+      "origin_server_ts": 1464086086357,
+      "sender": "@freenode_Arathorn:matrix.org",
+      "event_id": "$1464086086628331JAghN:matrix.org",
+      "age": 3554503,
+      "unsigned": {
+        "age": 3554503
+      },
+      "content": {
+        "body": "neither is de facto. we're running the node one currently, but it's pretty anaemic. the go one is much more sophisticated, but totally lacks doc and nobody's ever run it other than the author",
+        "msgtype": "m.text"
+      },
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@freenode_Arathorn:matrix.org",
+      "type": "m.room.message"
+    },
+    {
+      "prev_content": {
+        "membership": "join",
+        "avatar_url": "mxc://matrix.org/qlCCKfanORINJkJCXEptQGfT",
+        "displayname": "fractal"
+      },
+      "origin_server_ts": 1464087914769,
+      "sender": "@fractal:matrix.org",
+      "event_id": "$1464087914630413Bztha:matrix.org",
+      "age": 1726091,
+      "unsigned": {
+        "prev_content": {
+          "membership": "join",
+          "avatar_url": "mxc://matrix.org/qlCCKfanORINJkJCXEptQGfT",
+          "displayname": "fractal"
+        },
+        "prev_sender": "@fractal:matrix.org",
+        "replaces_state": "$1448517912283972dDfBO:matrix.org",
+        "age": 1726091
+      },
+      "state_key": "@fractal:matrix.org",
+      "content": {
+        "membership": "join",
+        "avatar_url": "mxc://matrix.org/SwgNQnfHVrqDbgBPkKAzknwx",
+        "displayname": "fractal"
+      },
+      "membership": "join",
+      "room_id": "!cURbafjkfsMDVwdRDQ:matrix.org",
+      "user_id": "@fractal:matrix.org",
+      "replaces_state": "$1448517912283972dDfBO:matrix.org",
+      "type": "m.room.member"
+    }
+  ],
+  "end": "t126483-22107117_9758471_119301_1644755_6628_2094"
+}

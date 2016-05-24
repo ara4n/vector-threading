@@ -1,0 +1,5 @@
+/node_modules
+/lib
+/bundle.*
+/*.log
+.DS_Store
