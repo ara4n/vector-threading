@@ -17,7 +17,7 @@ limitations under the License.
 import React from 'react';
 import { DropTarget } from 'react-dnd';
 
-import Event from './Event';
+import DraggableEvent from './DraggableEvent';
 
 
 const threadTarget = {
@@ -59,7 +59,7 @@ var Thread = React.createClass({
         return connectDropTarget(
             <div className="thread">
                 { this.getThread().map((event) => {
-                    return <Event key={ event.event_id } event={ event }/>;
+                    return <DraggableEvent key={ event.event_id } event={ event }/>;
                   })
                 }
             </div>
@@ -67,6 +67,6 @@ var Thread = React.createClass({
     }
 })
 
-export default DropTarget('Event', threadTarget, connect => ({
+export default DropTarget("Event", threadTarget, connect => ({
         connectDropTarget: connect.dropTarget(),
 }))(Thread);

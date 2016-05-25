@@ -16,6 +16,7 @@ limitations under the License.
 
 import React from 'react';
 import { DragDropContext } from 'react-dnd';
+import EventDragLayer from './EventDragLayer';
 import HTML5Backend from 'react-dnd-html5-backend';
 import { SortablePane, Pane } from '../react-sortable-pane';
 
@@ -128,6 +129,7 @@ export default DragDropContext(HTML5Backend)(React.createClass({
     render() {
         return (
             <div className="scroll">
+                <EventDragLayer/>
                 <SortablePane
                     direction="horizontal"
                     disableEffect={ true }
