@@ -25,7 +25,7 @@ const eventSource = {
     beginDrag(props) {
         // Return the data describing the dragged item
         var item = {
-            event_id: props.event_id,
+            event_id: props.event.event_id,
         };
 
         console.log("event beginDrag for " + item.event_id);
