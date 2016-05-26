@@ -33,6 +33,7 @@ export default DragDropContext(HTML5Backend)(React.createClass({
             eventsById: {},
             threads: [], // root nodes of the various threads of events we're tracking
             className: null,
+            paneSizes: {},
         }
     },
 
@@ -97,6 +98,12 @@ export default DragDropContext(HTML5Backend)(React.createClass({
         }
     },
 
+    onResize(r) {
+        var paneSizes = this.state.paneSizes;
+        paneSizes[r.id] = { size: r.size };
+        this.setState({ paneSizes: paneSizes });
+    },
+
     getPanes() {
         var panes = this.state.threads.map((thread) => {
                                     return (
@@ -107,7 +114,7 @@ export default DragDropContext(HTML5Backend)(React.createClass({
                                             maxWidth={ 800 }
                                             minWidth={ 200 }
                                         >
-                                            <Thread thread={ thread } />
+                                            <Thread thread={ thread } width={ this.state.paneSizes[thread.event_id] ? this.state.paneSizes[thread.event_id].size.width : 400 } />
                                         </Pane>
                                     );
                                 });
@@ -118,6 +125,7 @@ export default DragDropContext(HTML5Backend)(React.createClass({
                 width={ 400 }
                 maxWidth={ 800 }
                 minWidth={ 200 }
+                height={ 1000 }
                 className="gutter"
             >
                 gutter

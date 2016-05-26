@@ -59,7 +59,7 @@ var Thread = React.createClass({
         return connectDropTarget(
             <div className="thread">
                 { this.getThread().map((event) => {
-                    return <DraggableEvent key={ event.event_id } event={ event }/>;
+                    return <DraggableEvent key={ event.event_id } event={ event } startWidth={ this.props.width }/>;
                   })
                 }
             </div>

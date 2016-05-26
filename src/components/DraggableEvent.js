@@ -29,6 +29,7 @@ const eventSource = {
         // Return the data describing the dragged item
         var item = {
             event: props.event,
+            startWidth: props.startWidth,
         };
 
         console.log("event beginDrag for " + item.event.event_id);
@@ -60,6 +61,7 @@ var DraggableEvent = React.createClass({
         event: React.PropTypes.object.isRequired,
         // Injected by React DnD:
         isDragging: React.PropTypes.bool.isRequired,
+        isOver: React.PropTypes.bool,
         connectDragSource: React.PropTypes.func,
         connectDragTarget: React.PropTypes.func,
         connectDragPreview: React.PropTypes.func,
@@ -75,8 +77,15 @@ var DraggableEvent = React.createClass({
         var connectDragSource = this.props.connectDragSource;
         var connectDropTarget = this.props.connectDropTarget;
 
-        return connectDragSource(connectDropTarget(
-            <div style={{ display: 'tableRow' }}>
+//        console.log("rendering draggable event with isOver: " + this.props.isOver);
+
+        var className = "draggableEvent";
+        if (this.props.isDragging && this.props.isOver) {
+            className = "draggableEvent vanish";
+        }
+
+        return connectDragSource((
+            <div className={ className }>
                 <Event event={ this.props.event }/>
             </div>
         ));

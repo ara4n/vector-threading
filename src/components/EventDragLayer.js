@@ -29,7 +29,7 @@ const layerStyles = {
     height: '100%'
 };
 
-function getItemStyles(props) {
+function getItemStyles(props, initialWindowScrollY) {
     const { initialOffset, currentOffset } = props;
     if (!initialOffset || !currentOffset) {
         return {
@@ -38,7 +38,7 @@ function getItemStyles(props) {
     }
 
     let { x, y } = currentOffset;
-    y = initialOffset.y;
+    y = initialOffset.y + initialWindowScrollY - window.scrollY;
 
     const transform = `translate(${x}px, ${y}px)`;
     return {
@@ -65,16 +65,40 @@ var EventDragLayer = React.createClass({
         isDragging: PropTypes.bool.isRequired,
     },
 
+    handleScroll: function(e) {
+        this.forceUpdate();
+    },
+
+    componentDidMount: function() {
+        window.addEventListener('scroll', this.handleScroll);
+    },
+
+    componentWillUnmount: function() {
+        window.removeEventListener('scroll', this.handleScroll);
+    },
+
     render() {
         const { item, itemType, isDragging } = this.props;
 
         if (!isDragging) {
+            this.isDragging = false;
             return null;
+        }
+        else {
+            if (!this.isDragging) {
+                this.initialWindowScrollY = window.scrollY;
+                this.isDragging = true;
+            }
+        }
+
+        var itemStyles = getItemStyles(this.props, this.initialWindowScrollY);
+        if (item.startWidth) {
+            itemStyles['width'] = item.startWidth;
         }
 
         return (
             <div style={layerStyles}>
-                <div style={ getItemStyles(this.props) }>
+                <div style={ itemStyles }>
                     <Event event={item.event} />
                 </div>
             </div>

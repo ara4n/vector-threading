@@ -21,10 +21,6 @@ body {
     height: 100%;
 }
 
-.gutter {
-    height: 100%;
-}
-
 .noselect {
     -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none;   /* Chrome/Safari/Opera */
@@ -35,26 +31,38 @@ body {
                                     not supported by any browser */
 }
 
+.thread {
+    background-color: #f0f0f0;
+}
+
 .event {
-    display: table-row;
+    padding-top: 8px;
+    background-color: #f0f0f0;
 }
 
 .event_Sender {
+    opacity: 0.5;
+    font-size: 13px;
     word-break: break-word;
-    width: 200px;
-    display: table-cell;
-    background-color: #ddd;
-    border: 1px solid #ccc;
 }
 
 .event_Body {
-    display: table-cell;
-    padding: 10px;
-    background-color: #eee;
-    border: 1px solid #ccc;
     word-break: break-word;
 }
 
 .gutter {
     background-color: #aaa;
+    height: 100%;
+}
+
+.draggableEvent {
+    max-height: 100px;
+}
+
+.vanish {
+   visibility: hidden;
+   max-height: 0px;
+   transition: max-height 0.25s ease-in;
+   -moz-transition: max-height 0.25s ease-in;
+   -webkit-transition: max-height 0.25s ease-in;
 }
