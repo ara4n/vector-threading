@@ -26,7 +26,10 @@ const threadTarget = {
     },
 
     drop(props, monitor, component) {
-        console.log("dropped on thread")
+        console.log("dropped on thread");
+
+        var item = monitor.getItem();
+        props.forkThread(item.event);
     },
 
     hover(props, monitor, component) {
@@ -35,16 +38,22 @@ const threadTarget = {
 };
 
 
-var Thread = React.createClass({
+var ThreadPane = React.createClass({
 
     propTypes: {
-        thread: React.PropTypes.object.isRequired, // root event of the thread being displayed
+        thread: React.PropTypes.object, // the thread being displayed
+        parent: React.PropTypes.object, // parent thread component
         connectDropTarget: React.PropTypes.func.isRequired,
+        isOver: React.PropTypes.bool,
     },
 
-    getThread() {
-        var event = this.props.thread;
-        var events = [event];
+    getEvents() {
+        var thread = this.props.thread;
+        if (!thread) return [];
+        var event = thread.event;
+
+        var events = [ event ];
+
         // left-recurse down the thread graph
         while (event.children) {
             event = event.children[0];
@@ -56,17 +65,24 @@ var Thread = React.createClass({
     render() {
         var connectDropTarget = this.props.connectDropTarget;
 
+        var thread = this.props.thread;
+        var top = 0;
+        if (thread && thread.parent) {
+            top = this.props.getBottomOfEventInThread(thread, thread.parent.event.event_id);
+        }
+
         return connectDropTarget(
-            <div className="thread">
-                { this.getThread().map((event) => {
-                    return <DraggableEvent key={ event.event_id } event={ event } startWidth={ this.props.width }/>;
+            <div className="thread" style={{ top: `${ top }px` }}>
+                { this.getEvents().map((event) => {
+                    return <DraggableEvent ref={event.event_id} key={ event.event_id } event={ event } startWidth={ this.props.width }/>;
                   })
                 }
             </div>
         );
     }
-})
+});
 
-export default DropTarget("Event", threadTarget, connect => ({
-        connectDropTarget: connect.dropTarget(),
-}))(Thread);
+export default DropTarget("Event", threadTarget, (connect, monitor) => ({
+    connectDropTarget: connect.dropTarget(),
+    connectIsOver: monitor.isOver(),
+}))(ThreadPane);

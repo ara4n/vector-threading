@@ -15,7 +15,7 @@ limitations under the License.
 */
 
 import React from 'react';
-import { DragSource, DropTarget } from 'react-dnd';
+import { DragSource } from 'react-dnd';
 import { getEmptyImage } from 'react-dnd-html5-backend';
 
 import Event from './Event';
@@ -44,16 +44,6 @@ const eventSource = {
     },
 };
 
-const eventTarget = {
-    canDrop: function() {
-        return false;
-    },
-
-    hover: function(props, monitor) {
-        var item = monitor.getItem();
-    },
-};
-
 
 var DraggableEvent = React.createClass({
 
@@ -63,7 +53,6 @@ var DraggableEvent = React.createClass({
         isDragging: React.PropTypes.bool.isRequired,
         isOver: React.PropTypes.bool,
         connectDragSource: React.PropTypes.func,
-        connectDragTarget: React.PropTypes.func,
         connectDragPreview: React.PropTypes.func,
     },
 
@@ -75,7 +64,6 @@ var DraggableEvent = React.createClass({
 
     render() {
         var connectDragSource = this.props.connectDragSource;
-        var connectDropTarget = this.props.connectDropTarget;
 
 //        console.log("rendering draggable event with isOver: " + this.props.isOver);
 
@@ -93,17 +81,11 @@ var DraggableEvent = React.createClass({
 });
 
 
-export default DropTarget("Event", eventTarget, (connect, monitor) => ({
-        // Call this function inside render()
-        // to let React DnD handle the drag events:
-        connectDropTarget: connect.dropTarget(),
-        isOver: monitor.isOver(),
-}))(
-DragSource("Event", eventSource, (connect, monitor) => ({
+export default DragSource("Event", eventSource, (connect, monitor) => ({
         // Call this function inside render()
         // to let React DnD handle the drag events:
         connectDragSource: connect.dragSource(),
         connectDragPreview: connect.dragPreview(),
         // You can ask the monitor about the current drag state:
         isDragging: monitor.isDragging()
-}))(DraggableEvent));
+}))(DraggableEvent);

@@ -20,10 +20,20 @@ import EventDragLayer from './EventDragLayer';
 import HTML5Backend from 'react-dnd-html5-backend';
 import { SortablePane, Pane } from '../react-sortable-pane';
 
-import Thread from './Thread';
+import ThreadPane from './ThreadPane';
 
 var timelineJson = require("../../hq2.json");
 
+
+// pure model class for a thread of events.
+class Thread {
+    constructor(event, parent, top, bottom) {
+        this.event = event;
+        this.parent = parent;
+        this.top = top;
+        this.bottom = bottom;
+    }
+}
 
 export default DragDropContext(HTML5Backend)(React.createClass({
 
@@ -46,13 +56,14 @@ export default DragDropContext(HTML5Backend)(React.createClass({
             // no explicit in_reply_to header is interpreted as following the previous event
             var parentIds = event.in_reply_to || last_event.event_id;
             if (parentIds && parentIds.constructor !== Array) parentIds = [ parentIds ];
-            this.moveEvent(event, parentIds);
+            this.moveEvent(event, parentIds, false);
             last_event = event;
         });
         this.setState({ eventsById: this.state.eventsById });
     },
 
-    moveEvent(event, parentIds) {
+    // moves an event to be the oldest or youngest child of its new parents
+    moveEvent(event, parentIds, oldest) {
         // remove ourselves from our previous parents if any
         if (event.parents) {
             event.parents.forEach((parent) => {
@@ -73,7 +84,9 @@ export default DragDropContext(HTML5Backend)(React.createClass({
                 event.parents.push(parent);
                 if (!parent && !newThread) {
                     // create a new thread
-                    this.setState({ threads: this.state.threads.concat(event) });
+                    var thread = new Thread(event, event.thread);
+                    event.thread = thread;
+                    this.setState({ threads: this.state.threads.concat(thread) });
                     newThread = true;
                 }
                 else {
@@ -81,10 +94,17 @@ export default DragDropContext(HTML5Backend)(React.createClass({
                     if (parent.children) {
                         if (!newThread) {
                             // create a new thread
-                            this.setState({ threads: this.state.threads.concat(event) });
+                            var thread = new Thread(event, event.thread);
+                            event.thread = thread;
+                            this.setState({ threads: this.state.threads.concat(thread) });
                             newThread = true;
                         }
-                        parent.children.push(event);
+                        if (oldest) {
+                            parent.children.unshift(event);
+                        }
+                        else {
+                            parent.children.push(event);
+                        }
                     }
                     else {
                         parent.children = [event];
@@ -94,8 +114,21 @@ export default DragDropContext(HTML5Backend)(React.createClass({
         }
         else {
             // create a new thread
-            this.setState({ threads: this.state.threads.concat(event) });
+            var thread = new Thread(event, event.thread);
+            event.thread = thread;
+            this.setState({ threads: this.state.threads.concat(thread) });
         }
+    },
+
+    forkThread(event) {
+        // makes the child of this event its older sibling instead, thus making the child branch off into its own thread.
+        // in future it could also upgrade the Thread that this event is in to being a real Thread rather than a gutter somehow.
+
+        event.children.forEach(child=>{
+            this.moveEvent(child, event.parents, true);
+        });
+        // having moved our children to be older siblings, remove them.
+        event.children = [];
     },
 
     onResize(r) {
@@ -104,17 +137,38 @@ export default DragDropContext(HTML5Backend)(React.createClass({
         this.setState({ paneSizes: paneSizes });
     },
 
+    getBottomOfEventInThread(thread, event_id) {
+        // evil usage of refs to inspect children.
+        // is this really better than plain old getElementById?
+        var component = this.refs[thread.event.event_id];
+        if (!component) {
+            console.warn("no such thread " + thread.event.event_id);
+            return;
+        }
+        var eventElement = component.refs[event_id];
+        if (!eventElement) {
+            console.warn("no such event " + event_id);
+            return;
+        }
+        return eventElement.offsetTop() + eventElement.offsetHeight();
+    },
+
     getPanes() {
         var panes = this.state.threads.map((thread) => {
+                                    var event_id = thread.event.event_id;
                                     return (
                                         <Pane
-                                            id={ thread.event_id }
-                                            key={ thread.event_id }
+                                            id={ event_id }
+                                            key={ event_id }
                                             width={ 400 }
                                             maxWidth={ 800 }
                                             minWidth={ 200 }
                                         >
-                                            <Thread thread={ thread } width={ this.state.paneSizes[thread.event_id] ? this.state.paneSizes[thread.event_id].size.width : 400 } />
+                                            <ThreadPane
+                                                ref={ event_id }
+                                                thread={ thread }
+                                                getBottomOfEventInThread= { this.getBottomOfEventInThread }
+                                                width={ this.state.paneSizes[event_id] ? this.state.paneSizes[event_id].size.width : 400 } />
                                         </Pane>
                                     );
                                 });
@@ -122,13 +176,17 @@ export default DragDropContext(HTML5Backend)(React.createClass({
             <Pane
                 id="gutter"
                 key="gutter"
-                width={ 400 }
+                width={ 200 }
                 maxWidth={ 800 }
                 minWidth={ 200 }
                 height={ 1000 }
                 className="gutter"
             >
-                gutter
+                <ThreadPane
+                    thread={ null }
+                    forkThread={ this.forkThread }
+                    width={ this.state.paneSizes['gutter'] ? this.state.paneSizes['gutter'].size.width : 200 }
+                />
             </Pane>
         );
         return panes;

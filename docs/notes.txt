@@ -1,0 +1,59 @@
+UI Operations
+=============
+
+Fork thread:
+ * Drag & drop an event into a gutter that springs up between existing threads.
+ * Copy an event into a new thread.
+ * Could also copy some selection of children into the new thread.  There has to be at least one child left behind in the old thread though.
+
+Move event:
+ * Drag an event to the bottom of an existing thread to move it to append to that thread.
+ * By default takes all of its children, but these could be selected out.
+
+Merge thread:
+ * Drag an event onto another event in an existing thread to make them share the same parent - i.e. merge the threads.  Events are ordered chronologically after the merge.
+
+Reorder threads by drag & dropping their widgets:
+ * There is one true logical ordering of the threads (based on walking the DAG)
+ * But multiple possible physical orderings, which are stored as separate account_data for the room somehow?
+
+Selection behaviour:
+ * Single-click, select an event and all its children.
+ * Drag over events: select a set of contiguous events within a thread
+ * Shift-click/drag, toggle selection (or could also use ctrl-shift-click/drag to remove?)
+ * Drag an event (or a selection): move it.
+
+
+Layout behaviour
+================
+
+Thread causality has to be preserved so that global events (joins, parts, day separators, RRs) happen in the right place.
+
+The currently selected thread is shown in its entirety without padding or collapsed sections.
+
+You select a thread by clicking on a widget of some kind.  This is now where your responses go to.
+
+Other threads are then either stretched or collapsed either side in order to fit in with the view?
+
+OR:
+ * we track RRs per thread (which is accurate, as threads may not have been read by certain clients).
+ * we let the threads break causality as long as the main bits line up:
+   * user joins/parts
+   * thread forks/joins
+ * we push events to the bottom(?) of the thread.
+ * we could lay events out via flexbox, or a motion library, or just plain old blocks with occasional absolute offset.
+ * we'd still need to collapse/stretch threads either side of the focused one in order to fit them in position.
+
+If you scroll up and down the main pane, our currently selected thread dictates what's happening on the other threads,
+which can either scroll around:
+ * in collapsed/stretched form, to match the main thread
+ * or... if there are no constraints visible on the page (and are larger than our main thread), could scroll faster to 'catch up' when the top constraint is visible, by moving the top offset of the thread to fake the 'parallax effect'
+ * or... if we are shorter than our main thread, scroll slower, equivalently - having the slower-moving thread hover whilst we scroll past the selected one.
+
+Threads may be reordered - and if empty in the window being viewed should be hidden entirely.
+
+Implementation
+==============
+
+Layout algorithm should be entirely functional of the underlying datastructure - including mid-animation.
+Do we separate the model from the react components or not?
