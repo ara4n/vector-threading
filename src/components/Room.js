@@ -15,6 +15,7 @@ limitations under the License.
 */
 
 import React from 'react';
+import ReactDOM from 'react-dom';
 import { DragDropContext } from 'react-dnd';
 import EventDragLayer from './EventDragLayer';
 import HTML5Backend from 'react-dnd-html5-backend';
@@ -32,6 +33,8 @@ class Thread {
         this.parent = parent;
         this.top = top;
         this.bottom = bottom;
+
+        console.log("constructed thread with event " + event.event_id + " and parent thread " + parent);
     }
 }
 
@@ -68,7 +71,7 @@ export default DragDropContext(HTML5Backend)(React.createClass({
         if (event.parents) {
             event.parents.forEach((parent) => {
                 parent.children = parent.children.filter((child) => {
-                    child.event_id !== event.event_id
+                    return (child.event_id !== event.event_id);
                 })
             });
         }
@@ -94,8 +97,10 @@ export default DragDropContext(HTML5Backend)(React.createClass({
                     if (parent.children) {
                         if (!newThread) {
                             // create a new thread
-                            var thread = new Thread(event, event.thread);
-                            event.thread = thread;
+                            var newRoot = oldest ? parent.children[0] : event;
+                            var thread = new Thread(newRoot, newRoot.thread);
+                            newRoot.thread = thread;
+                            console.log("forked new thread with root of " + newRoot.event_id);
                             this.setState({ threads: this.state.threads.concat(thread) });
                             newThread = true;
                         }
@@ -110,6 +115,10 @@ export default DragDropContext(HTML5Backend)(React.createClass({
                         parent.children = [event];
                     }
                 }
+
+                if (!event.thread) {
+                    event.thread = event.parents[0].thread;
+                }
             });
         }
         else {
@@ -118,6 +127,8 @@ export default DragDropContext(HTML5Backend)(React.createClass({
             event.thread = thread;
             this.setState({ threads: this.state.threads.concat(thread) });
         }
+
+        this.forceUpdate();
     },
 
     forkThread(event) {
@@ -125,7 +136,7 @@ export default DragDropContext(HTML5Backend)(React.createClass({
         // in future it could also upgrade the Thread that this event is in to being a real Thread rather than a gutter somehow.
 
         event.children.forEach(child=>{
-            this.moveEvent(child, event.parents, true);
+            this.moveEvent(child, event.parents.map(parent=>{return parent.event_id}), true);
         });
         // having moved our children to be older siblings, remove them.
         event.children = [];
@@ -145,12 +156,12 @@ export default DragDropContext(HTML5Backend)(React.createClass({
             console.warn("no such thread " + thread.event.event_id);
             return;
         }
-        var eventElement = component.refs[event_id];
+        var eventElement = ReactDOM.findDOMNode(component.decoratedComponentInstance.refs[event_id]); // XXX: EWWWWWWWWW
         if (!eventElement) {
             console.warn("no such event " + event_id);
             return;
         }
-        return eventElement.offsetTop() + eventElement.offsetHeight();
+        return eventElement.offsetTop + eventElement.offsetHeight;
     },
 
     getPanes() {

@@ -12,6 +12,7 @@ Move event:
 
 Merge thread:
  * Drag an event onto another event in an existing thread to make them share the same parent - i.e. merge the threads.  Events are ordered chronologically after the merge.
+  * huh? this is an edge case; typically you'd want to append to that thread, not indicate the target as a new sibling!
 
 Reorder threads by drag & dropping their widgets:
  * There is one true logical ordering of the threads (based on walking the DAG)
@@ -57,3 +58,40 @@ Implementation
 
 Layout algorithm should be entirely functional of the underlying datastructure - including mid-animation.
 Do we separate the model from the react components or not?
+
+Yes, we separate the model, and pass the model into each component as a prop.  Rely on the prop changing to get the component updated.
+We don't gutwrench the model.
+We don't gutwrench components either. we pass interface objects between them - e.g. for ThreadPanels needing to know about their parent ThreadPanel in order to lay themselves out, we pass in a ParentThreadInfo object or something?
+
+Possible design choices:
+ * react-sizable-pane or velocity?
+ * read-dnd or DIY dragging?
+
+Design
+======
+
+Partial soln:
+
+EventTile backed by Event model objects, which embed a raw event.
+ Events have a Thread.
+ EventTiles have a parent ThreadTile, so they can do layout calcs? <-- or can this just be an interface for the calcs they need to perform, to avoid gutwrenching.
+
+ThreadTile backed by Thread model objects.
+ Threads have a rootEvent.
+ Threads have a parent thread.  Threads should not be aware of their components.
+ ThreadTiles track where they are laid out - top and bottom, perhaps their alignment? (top-align, middle-align, bottom-align?)  Are they collapsed?
+ ThreadTiles also have a parent ThreadTile (which should always match their model's parent), used for layout calculations.  (is this really needed)? - this should probably be an interface too.
+
+RoomTile
+ Should be backed by a Room
+ Has a list of events
+ Has a list of threads
+
+
+Plan of action
+==============
+
+Get it vaguely working
+Refactor it into proper model & UI sep
+Comment the hell out of the resulting classes & interfaces
+Tests

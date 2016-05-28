@@ -51,11 +51,10 @@ var ThreadPane = React.createClass({
         var thread = this.props.thread;
         if (!thread) return [];
         var event = thread.event;
-
         var events = [ event ];
 
         // left-recurse down the thread graph
-        while (event.children) {
+        while (event.children && event.children[0]) {
             event = event.children[0];
             events.push(event);
         }
@@ -67,14 +66,18 @@ var ThreadPane = React.createClass({
 
         var thread = this.props.thread;
         var top = 0;
+        if (thread) {
+            console.log("rendering pane with thread = " + thread + " and parent " + thread.parent);
+        }
         if (thread && thread.parent) {
-            top = this.props.getBottomOfEventInThread(thread, thread.parent.event.event_id);
+            top = this.props.getBottomOfEventInThread(thread.parent, thread.event.parents[0].event_id);
+            console.log("calculate new top as " + top);
         }
 
         return connectDropTarget(
             <div className="thread" style={{ top: `${ top }px` }}>
                 { this.getEvents().map((event) => {
-                    return <DraggableEvent ref={event.event_id} key={ event.event_id } event={ event } startWidth={ this.props.width }/>;
+                    return <DraggableEvent ref={ event.event_id } key={ event.event_id } event={ event } startWidth={ this.props.width }/>;
                   })
                 }
             </div>

@@ -68,7 +68,7 @@ var DraggableEvent = React.createClass({
 //        console.log("rendering draggable event with isOver: " + this.props.isOver);
 
         var className = "draggableEvent";
-        if (this.props.isDragging && this.props.isOver) {
+        if (this.props.isDragging) {
             className = "draggableEvent vanish";
         }
 
