@@ -83,7 +83,7 @@ var DraggableEvent = React.createClass({
 
         var className = "draggableEvent";
         if (this.props.isDragging) {
-            className = "draggableEvent vanish";
+//            className = "draggableEvent vanish";
         }
 
         return connectDragSource((
