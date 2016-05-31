@@ -15,7 +15,6 @@ limitations under the License.
 */
 
 import React from 'react';
-import ReactDOM from 'react-dom';
 import { DragDropContext } from 'react-dnd';
 import EventDragLayer from './EventDragLayer';
 import HTML5Backend from 'react-dnd-html5-backend';
@@ -156,12 +155,13 @@ export default DragDropContext(HTML5Backend)(React.createClass({
             console.warn("no such thread " + thread.event.event_id);
             return;
         }
-        var eventElement = ReactDOM.findDOMNode(component.decoratedComponentInstance.refs[event_id]); // XXX: EWWWWWWWWW
+        var eventElement = component.getDecoratedComponentInstance().refs[event_id];
         if (!eventElement) {
             console.warn("no such event " + event_id);
             return;
         }
-        return eventElement.offsetTop + eventElement.offsetHeight;
+        eventElement = eventElement.getDecoratedComponentInstance();
+        return eventElement.top + eventElement.height;
     },
 
     getPanes() {

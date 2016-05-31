@@ -15,6 +15,7 @@ limitations under the License.
 */
 
 import React from 'react';
+import ReactDOM from 'react-dom';
 import { DragSource } from 'react-dnd';
 import { getEmptyImage } from 'react-dnd-html5-backend';
 
@@ -60,6 +61,17 @@ var DraggableEvent = React.createClass({
         // Use empty image as a drag preview so browsers don't draw it
         // and we can draw whatever we want on the custom drag layer instead.
         this.props.connectDragPreview(getEmptyImage(), {});
+        this.setSize();
+    },
+
+    componentDidUpdate() {
+        this.setSize();
+    },
+
+    setSize() {
+        var node = ReactDOM.findDOMNode(this);
+        this.top = node.offsetTop;
+        this.height = node.offsetHeight;
     },
 
     render() {

@@ -188,7 +188,7 @@ class SortablePane extends Component {
    * @param  {number}   currentPane - Index of rerference pane
    * @param  {number[]} sizes       - Array of pane sizes
    * @param  {number}   margin      - The margin between panes
-   * @return {object}               - Object containing 'prevoius' and 'next'
+   * @return {object}               - Object containing 'previous' and 'next'
    *                                  pane halfway points
    */
   getSurroundingHalfSizes(currentPane, sizes, margin) {
