@@ -66,13 +66,15 @@ var ThreadPane = React.createClass({
 
         var thread = this.props.thread;
         var top = 0;
-        if (thread) {
-            console.log("rendering pane with thread = " + thread + " and parent " + thread.parent);
-        }
+        // if (thread) {
+        //     console.log("rendering pane with thread = " + thread + " and parent " + thread.parent);
+        // }
         if (thread && thread.parent) {
             var dims = this.props.getDimsOfEventInThread(thread.parent, thread.event.parents[0].event_id);
-            top = dims.top + dims.height;
-            console.log("calculate new top as " + top);
+            if (dims) {
+                top = dims.top + dims.height;
+                console.log("calculate new top as " + top);
+            }
         }
 
         return connectDropTarget(
