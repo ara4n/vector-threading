@@ -70,8 +70,10 @@ var DraggableEvent = React.createClass({
 
     setSize() {
         var node = ReactDOM.findDOMNode(this);
-        this.top = node.offsetTop;
+        this.width = node.offsetWidth;
         this.height = node.offsetHeight;
+        this.left = node.offsetLeft;
+        this.top = node.offsetTop;
     },
 
     render() {

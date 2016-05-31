@@ -147,7 +147,7 @@ export default DragDropContext(HTML5Backend)(React.createClass({
         this.setState({ paneSizes: paneSizes });
     },
 
-    getBottomOfEventInThread(thread, event_id) {
+    getDimsOfEventInThread(thread, event_id) {
         // evil usage of refs to inspect children.
         // is this really better than plain old getElementById?
         var component = this.refs[thread.event.event_id];
@@ -161,7 +161,12 @@ export default DragDropContext(HTML5Backend)(React.createClass({
             return;
         }
         eventElement = eventElement.getDecoratedComponentInstance();
-        return eventElement.top + eventElement.height;
+        return {
+            width: eventElement.width,
+            height: eventElement.height,
+            top: eventElement.top,
+            left: eventElement.left,
+        };
     },
 
     getPanes() {
@@ -178,7 +183,7 @@ export default DragDropContext(HTML5Backend)(React.createClass({
                                             <ThreadPane
                                                 ref={ event_id }
                                                 thread={ thread }
-                                                getBottomOfEventInThread= { this.getBottomOfEventInThread }
+                                                getDimsOfEventInThread= { this.getDimsOfEventInThread }
                                                 width={ this.state.paneSizes[event_id] ? this.state.paneSizes[event_id].size.width : 400 } />
                                         </Pane>
                                     );
@@ -206,7 +211,7 @@ export default DragDropContext(HTML5Backend)(React.createClass({
     render() {
         return (
             <div className="scroll">
-                <EventDragLayer/>
+                <EventDragLayer getDimsOfEventInThread= { this.getDimsOfEventInThread }/>
                 <SortablePane
                     direction="horizontal"
                     disableEffect={ true }

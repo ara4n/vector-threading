@@ -42,8 +42,9 @@ function getItemStyles(props, initialWindowScrollY) {
 
     const transform = `translate(${x}px, ${y}px)`;
     return {
+        position: 'relative',
         transform: transform,
-        WebkitTransform: transform
+        WebkitTransform: transform,
     };
 }
 
@@ -96,9 +97,25 @@ var EventDragLayer = React.createClass({
             itemStyles['width'] = item.startWidth;
         }
 
+        // FIXME: events should handle drawing their links, not the drag layer
+        var connector;
+        if (item.event.thread) {
+            var dims = this.props.getDimsOfEventInThread(item.event.thread, item.event.parents[0].event_id);
+            if (dims && (this.props.currentOffset.x - this.props.initialOffset.x) > dims.width) {
+                var style = {
+                    width: (this.props.currentOffset.x - this.props.initialOffset.x - dims.left - dims.width) + "px",
+                    height: (dims.height * 2) + "px",
+                    right: dims.width + "px",
+                    bottom: "0px",
+                };
+                connector = <img className="connector" src="img/connector.svg" style={style}/>
+            }
+        }
+
         return (
             <div style={layerStyles}>
                 <div style={ itemStyles }>
+                    { connector }
                     <Event event={item.event} />
                 </div>
             </div>

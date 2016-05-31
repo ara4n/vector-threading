@@ -25,7 +25,7 @@ export default React.createClass({
     render() {
         return (
             <div className="event">
-                <div className="event_Sender">{ this.props.event.sender } {this.props.event.event_id}</div>
+                <div className="event_Sender">{ this.props.event.sender }</div>
                 <div className="event_Body">{ this.props.event.content.body }</div>
             </div>
         );

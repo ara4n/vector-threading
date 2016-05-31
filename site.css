@@ -52,13 +52,17 @@ body {
     word-break: break-word;
 }
 
-.gutter {
-    background-color: #aaa;
+.gutter .thread {
+    background-color: #fee ! important;
     height: 100%;
 }
 
 .draggableEvent {
     max-height: 500px;
+}
+
+.connector {
+    position: absolute;
 }
 
 .vanish {
